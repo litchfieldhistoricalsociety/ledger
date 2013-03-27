@@ -1,0 +1,11 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# students: string school (LLS | LFA) %>
+<% label = school == 'LLS' ? "Law School Students" : (school == 'LFA' ? "Female Academy Students" : "Non-Students" ) %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }, { :label => label, :type => school }, { :label => @subtype.gsub('_', ' ').titleize(), :type => school, :subtype => @subtype }]) %> > By <%= @selection %></div>
+<div class="title">BY <%= @selection.upcase() %></div>
+<div class="total">Total: <%= @total %></div>
+<%= render :partial => 'three_column_list', :locals => { :list_item => @list, :action => { :controller => 'students', :action => 'show' }, :label_column => :id, :table_class => "student_browse_list" } %>

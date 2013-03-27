@@ -1,0 +1,23 @@
+<% if admin_signed_in? %>
+	<div class="admin_users"><%= link_to("Account Maintenance", { :controller => 'admin', :action => 'account_maintenance' }) %></div>
+<% end %>
+<h1 class="page_header">Ledger Administration Home</h1>
+<% if user_signed_in? %>
+	<hr />
+	<%= form_tag({ :controller => 'students', :action => 'index' }, :method => "get") do %>
+		<div class="admin_search"><input id="search_btn" type="submit" value="" /></div>
+		<div class="advanced_search_label">Search:<br /><div class="subtle">(Will search all fields)</div></div>
+		<div class="advanced_search_input">
+	<%= text_field_tag(:q, nil, {:class => 'admin_search_input'}) %>
+		</div>
+	<% end %>
+	<div class="clear_left"></div>
+	<hr />
+
+	<%= render :partial => 'column', :locals => { :header_img => "admin_header_people.gif", :button_img => 'admin_button_people.jpg', :new_path => new_student_path, :obj_controller => 'students', :revised => @revised_people } %>
+	<%= render :partial => 'column', :locals => { :header_img => "admin_header_object.gif", :button_img => 'admin_button_object.jpg', :new_path => new_material_path, :obj_controller => 'materials', :revised => @revised_objects } %>
+<% elsif User.all.count == 0 %>
+	There have been no users created. To begin administering this site, create a master user: <%= link_to "sign up", sign_up_path %>
+<% else  %>
+	<%= render :partial => 'sign_in' %>
+<% end %>

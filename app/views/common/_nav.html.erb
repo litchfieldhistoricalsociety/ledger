@@ -1,0 +1,17 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# nav params: bool show_home, string curr_tab, string id_suffix %>
+<% curr_tab ||= '' %>
+<div id="nav_container_<%= id_suffix %>">
+	<%= create_tab_item(".", { :controller => '/search', :action => 'index' }, "ledger_search", curr_tab == 'search', 'Use keywords to locate individuals or objects.') %>
+	<%= create_tab_item(".", { :controller => '/browse', :action => 'index' }, "ledger_browse", curr_tab == 'browse', 'View listings of students or objects by name, date, or place.') %>
+	<%= create_tab_item(".", { :controller => '/studies', :action => 'index' }, "ledger_studies", curr_tab == 'studies', 'Read introductory essays, find bibliographies of secondary sources, or get ideas for research topics.') %>
+	<%= create_tab_item(".", { :controller => '/search', :action => 'about' }, "ledger_about", curr_tab == 'about', 'Read about the funders and project team.') %>
+<% if show_home %>
+	<%= create_tab_item(".", { :controller => '/home', :action => 'index' }, "ledger_home", curr_tab == 'home') %>
+<% end %>
+</div>
+<div class="clear_both"></div>

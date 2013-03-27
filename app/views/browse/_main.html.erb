@@ -1,0 +1,11 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<div class="title">BROWSE</div>
+<%= my_link_to "Law School Students (#{@total_lls})", { :controller => 'browse', :action => 'index', :type => 'LLS' } %><br />
+<%= my_link_to "Female Academy Students (#{@total_lfa})", { :controller => 'browse', :action => 'index', :type => 'LFA' } %><br />
+<%= my_link_to "Objects and Documents (#{@total_obj})", { :controller => 'browse', :action => 'index', :type => 'materials' } %><br />
+<%= my_link_to "Non-Students (#{@total_non})", { :controller => 'browse', :action => 'index', :type => 'non' } %><br />
+<%= my_link_to "Marriages Between Students (#{@total_marriages})", { :controller => 'browse', :action => 'index', :type => 'marriages' } %>

@@ -1,0 +1,23 @@
+<h1 class="page_header">Ledger Account Maintenance</h1>
+
+<table class="results">
+  <tr>
+    <th>Email</th>
+    <th>Permissions</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.email %></td>
+    <td><%= user.permissions %></td>
+    <td><%= link_to 'Edit', { :controller => 'admin', :action => 'edit_user', :id => user.id } %></td>
+	<td><%= link_to 'Delete', "/destroy_user?id=#{user.id}", { :class => 'fxn_confirm', 'data-confirm' => "Are you sure you want to delete the user #{user.email}?", 'data-method' => 'post' } %>
+<%#= link_to 'Delete', user_registration_path, :confirm => 'Are you sure?', :method => :delete %>
+	</td>
+  </tr>
+<% end %>
+</table>
+<%= link_to "Add User", sign_up_path %>
+<div class="clear_both"></div>

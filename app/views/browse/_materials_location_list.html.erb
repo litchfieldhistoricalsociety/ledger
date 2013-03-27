@@ -1,0 +1,9 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# materials_location_list: no params %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }, { :label => 'Materials', :type => 'materials' }, { :label => @subtype.capitalize(), :type => 'materials', :subtype => @subtype }]) %> > <%= @selection %></div>
+<div class="title"><%= @selection.upcase() %></div>
+<%= render :partial => 'three_column_list', :locals => { :list_item => @list, :action => { :controller => 'materials', :action => 'show' }, :label_column => :id, :table_class => "student_browse_list" } %>

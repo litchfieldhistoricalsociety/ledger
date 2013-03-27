@@ -1,0 +1,27 @@
+solr:
+  core: 'documents'
+  path: '../litchfield_solr'
+
+test_data:
+  image_folder: '/path/to/litchfield/images'
+
+images:
+  image_magic_path: '/usr/local/bin'
+
+admin:
+  email: admin@example.com
+
+# For setting up email - this example uses gmail
+smtp_settings:
+  address: "smtp.gmail.com"
+  port: 587
+  user_name: 'Admin <admin@example.com>'
+  password: 'super-secret'
+  authentication: :plain
+  return_path: example.com
+
+exception_notifier:
+  email_prefix: "[Litchfield] "
+  sender_address: "\"Litchfield auto-responder\" <from@example.com>"
+  exception_recipients: [ 'to@example.com' ]
+

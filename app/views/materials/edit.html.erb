@@ -1,0 +1,9 @@
+<%= raw(@errors.join("<br />")) if @errors && @errors.length > 0 %>
+<%= form_for(@material, :html => {:multipart => true}) do |f| %>
+<%= render :partial => 'form', :locals => { :is_editing => true } %>
+  <div class="actions">
+<%= create_submit_button("save", 'save_btn') %>
+<%= create_button("cancel", { :controller => 'materials', :action => :show, :id => @material.id }, 'cancel_btn') %>
+<!--    <%= f.submit("Update Object") %><%= link_to 'Cancel', @material %> -->
+  </div>
+<% end %>

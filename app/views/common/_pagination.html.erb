@@ -1,0 +1,36 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# pagination: int curr_page, int total_pages, hash url %>
+<% if total_pages > 1 %>
+<% max_shown = 15 %>
+<div class="pagination">
+	<%= if curr_page > 0 && total_pages > max_shown
+		my_link_to('First', url.merge({:page => 0}) )
+	end %>
+	<%= if curr_page > 0
+		my_link_to('Previous', url.merge({:page => curr_page-1}) )
+	end %>
+	<% if total_pages > max_shown %>
+		<% start = curr_page < max_shown ? 0 : curr_page - max_shown / 2
+			last = start + max_shown
+			if last > total_pages
+				bump = last - total_pages + 1
+				last -= bump
+				start -= bump
+			end
+		%>
+		<%= pagination_links(start, last, url, curr_page) %>
+	<% else %>
+		<%= pagination_links(0, total_pages-1, url, curr_page) %>
+	<% end %>
+	<%= if curr_page < total_pages-1
+		my_link_to('Next', url.merge({:page => curr_page+1}))
+	end %>
+	<%= if curr_page < total_pages-1 && total_pages > max_shown
+		my_link_to('Last', url.merge({:page => total_pages-1}))
+	end %>
+</div>
+<% end %>

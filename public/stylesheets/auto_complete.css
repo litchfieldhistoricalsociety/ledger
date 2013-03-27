@@ -1,0 +1,38 @@
+/* 
+	This is a companion to auto_complete.js, which implements an ajax autocomplete.
+*/
+
+div.auto_complete_dropdown {
+	width: 350px;
+	background: #fff;
+}
+
+div.auto_complete_dropdown ul {
+	border:1px solid #888;
+	margin:0;
+	padding:0;
+	width:100%;
+	list-style-type:none;
+}
+
+div.auto_complete_dropdown ul li {
+	margin:0;
+	padding:3px;
+	list-style-image:none;
+}
+
+div.auto_complete_dropdown ul li.selected {
+	background-color: #ffb;
+}
+
+div.auto_complete_dropdown ul strong.highlight {
+	color: #800;
+	margin:0;
+	padding:0;
+}
+
+.ui_autocomplete_loading {
+	background-image: url(../images/small_spinner.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# three_column_list: array of arrays list_item, hash action, symbol label_column, string table_class %>
+<div class="browse_left_column_2">
+<% list_item[0].length.times do |i| %>
+	<div class="browse_item"><%= create_three_column_link_item(list_item, 0, i, action, label_column) %></div>
+<% end %>
+</div>
+<div class="browse_right_column_2">
+<% list_item[0].length.times do |i| %>
+	<div class="browse_item"><%= create_three_column_link_item(list_item, 1, i, action, label_column) %></div>
+<% end %>
+</div>
+<div class="clear_both"></div>

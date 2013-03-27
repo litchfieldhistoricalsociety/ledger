@@ -1,0 +1,11 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# students: array list, int total %>
+<% label = "Marriages Between Students" %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }]) %> > By <%= label %></div>
+<div class="title">BY <%= label.upcase() %></div>
+<div class="total">Total: <%= total %></div>
+<%= render :partial => 'two_column_list', :locals => { :list_item => list, :action => { :controller => 'students', :action => 'show' }, :label_column => :id, :table_class => "student_browse_list" } %>

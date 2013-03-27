@@ -1,0 +1,22 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# students: string school (LLS | LFA) %>
+<% label = school == 'LLS' ? "Law School Students" : "Female Academy Students" %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }, { :label => label, :type => school }]) %> > by Attendance date</div>
+<div class="title">BY ATTENDANCE DATE</div>
+<% base_url = { :controller => 'browse', :action => 'index', :type => @type, :subtype => @subtype} %>
+<div class="browse_dates">
+<%= create_date_range('1774-1794', base_url, @selection) %> •
+<%= create_date_range('1795-1799', base_url, @selection) %> •
+<%= create_date_range('1800-1804', base_url, @selection) %> •
+<%= create_date_range('1805-1809', base_url, @selection) %> •
+<%= create_date_range('1810-1814', base_url, @selection) %> •
+<%= create_date_range('1815-1819', base_url, @selection) %> •
+<%= create_date_range('1820-1824', base_url, @selection) %> •
+<%= create_date_range('1825-1829', base_url, @selection) %> •
+<%= create_date_range('1830-1833', base_url, @selection) %>
+</div>
+<%= render :partial => 'three_column_list', :locals => { :list_item => @list, :action => { :controller => 'students', :action => 'show' }, :label_column => :id, :table_class => "student_browse_list" } %>

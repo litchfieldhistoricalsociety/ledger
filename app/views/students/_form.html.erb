@@ -1,0 +1,185 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+# STUDENTS
+%>
+<%# form: params: bool is_editing %>
+<% if params[:iterate] %>
+<div style="position: absolute;top:220px;">
+<%= link_to "Next", :controller => 'students', :action => 'show', :id => @student.id, :iterate => 'next' %><br />
+<%= link_to "Next Img", :controller => 'students', :action => 'show', :id => @student.id, :iterate => 'next_img' %><br />
+<%= link_to "Next Stub", :controller => 'students', :action => 'show', :id => @student.id, :iterate => 'next_stub' %></div>
+<% end %>
+<% gender = @student.gender=='F'?'Female':'Male' %>
+<%= main_student_image(@student, gender, is_editing) %>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%# = button_to("Delete Student", { :action => 'destroy', :id => @student.id },
+            :confirm => "Are you sure you want to delete #{@student.name}?", :method => :delete, :class => 'confirm') if full_signed_in? %>
+	<%= create_button("Delete", { :controller => 'students', :action => 'destroy', :id => @student.id }, 'delete_btn fxn_confirm', { 'data-confirm' => 'Are you sure you want to delete this student?', 'data-method' => 'delete' })  if full_signed_in? %>
+	<%= create_button("Edit", edit_student_path(@student) + "?section=1", 'edit_btn') %>
+</div>
+<% end %>
+<div class="student_data_div">
+	<p class="student_name"><%= name_row(@student.original_name, is_editing, "Person") %></p>
+</div>
+<% if !is_editing %>
+<hr />
+<% end %>
+<%= custom_error_messages_helper(@student) %>
+<div id="edit_section_1" class="<%= 'hidden' if @show_1 != true %>">
+<div class="student_data_div">
+	<%= edit_collection(is_editing) %>
+	<%= name_row_edit(@student.original_name, is_editing, "student") %>
+	<%= student_row("Other Name:", @student.other_name, is_editing, "student", :other_name, :input) %>
+	<%= student_row("Gender:", gender, is_editing, "student", :gender, :gender) %>
+	<%= student_row("Born:", VagueDate.full(@student.born), is_editing, "student", :born, :date) %>
+	<%= student_row("Died:", VagueDate.full(@student.died), is_editing, "student", :died, :date) %>
+	<%= main_student_image_edit(@student, gender, is_editing, @materials) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+<% if is_editing || (@student.home_town && (@student.home_town.length > 0 || @student.home_state.length > 0)) %>
+	<%= hometown_row("Home Town:", @student, is_editing) %>
+<% end %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= residences_row("Later Residences:", @student.residences, is_editing, "student") %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= marriages_row("Marriage(s):", @marriages, is_editing, "student") %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Biographical Notes:", @student.biographical_notes, is_editing, "student", :biographical_notes, :string) %>
+	<%= student_row("Quotes:", @student.quotes, is_editing, "student", :quotes, :string) %>
+	<%= student_row("Additional Notes:", @student.additional_notes, is_editing, "student", :additional_notes, :string) %>
+	<%= student_row("Private Notes:", @student.private_notes, is_editing, "student", :private_notes, :string) if user_signed_in? %>
+	<%= edit_collection_end(is_editing) %>
+</div>
+<% if !is_editing %>
+<hr class="clear_left" />
+<% end %>
+</div>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%= create_button("Edit", edit_student_path(@student) + "?section=2", 'edit_btn') %>
+</div>
+<% end %>
+<div id="edit_section_2" class="<%= 'hidden' if @show_2 != true %>">
+<% if user_signed_in? || @student.has_education_category() %>
+<div class="student_data_div">
+	<div class="student_data_header">Education</div>
+<% if is_editing || @student.has_education_category() %>
+	<%= edit_collection(is_editing) %>
+	<%= years_attended_row(@student, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Other Education:", @student.other_education, is_editing, "student", :other_education, :string) %>
+	<%= student_row("Room and Board:", @student.room_and_board, is_editing, "student", :room_and_board, :string) %>
+	<%= edit_collection_end(is_editing) %>
+<% end %>
+</div>
+<% if !is_editing %>
+<hr class="clear_left" />
+<% end %>
+<% end %>
+</div>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%= create_button("Edit", edit_student_path(@student) + "?section=3", 'edit_btn') %>
+</div>
+<% end %>
+<div id="edit_section_3" class="<%= 'hidden' if @show_3 != true %>">
+<% if user_signed_in? || @student.has_profession_category() %>
+<div class="student_data_div">
+	<div class="student_data_header">Profession / Service</div>
+<% if is_editing || @student.has_profession_category() %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Profession:", list_professions(@student.professions), is_editing, "student", :professions, :multiple_select, @professions) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Admitted To Bar:", @student.admitted_to_bar, is_editing, "student", :admitted_to_bar, :string) %>
+	<%= student_row("Training with Other Lawyers:", @student.training_with_other_lawyers, is_editing, "student", :training_with_other_lawyers, :string) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Political Party:", list_professions(@student.political_parties), is_editing, "student", :political_parties, :multiple_select, @political_parties) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= govt_post_row("Federal Posts:", @student.government_posts, is_editing, "student", 'Federal', @federal_posts) %>
+	<%= student_row("Federal Committees:", @student.federal_committees, is_editing, "student", :federal_committees, :string) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= govt_post_row("State Posts:", @student.government_posts, is_editing, "student", 'State', @state_posts) %>
+	<%= student_row("State Committees:", @student.state_committees, is_editing, "student", :state_committees, :string) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= govt_post_row("Local Posts:", @student.government_posts, is_editing, "student", 'Local', @local_posts) %>
+	<%= student_row("Benevolent and Charitable Organizations:", @student.benevolent_and_charitable_organizations, is_editing, "student", :benevolent_and_charitable_organizations, :string) %>
+	<%= edit_collection_end(is_editing) %>
+<% end %>
+</div>
+<% if !is_editing %>
+<hr class="clear_left" />
+<% end %>
+<% end %>
+</div>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%= create_button("Edit", edit_student_path(@student) + "?section=4", 'edit_btn') %>
+</div>
+<% end %>
+<div id="edit_section_4" class="<%= 'hidden' if @show_4 != true %>">
+<% if user_signed_in? || @relatives.length > 0 %>
+<div class="student_data_div">
+	<div class="student_data_header">Immediate Family <%= link_to "(Why only immediate family?)", { :controller => 'students', :action => 'why' } %></div>
+<% if is_editing || @relatives.length > 0 %>
+	<%= edit_collection(is_editing) %>
+	<%= relative_rows(@relatives, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+<% end %>
+</div>
+<% if !is_editing %>
+<hr class="clear_left" />
+<% end %>
+<% end %>
+</div>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%= create_button("Edit", edit_student_path(@student) + "?section=5", 'edit_btn') %>
+</div>
+<% end %>
+<div id="edit_section_5" class="<%= 'hidden' if @show_5 != true %>">
+<div class="student_data_div">
+<% if user_signed_in? || @materials.length > 0 || @student.offsite_materials.length > 0 %>
+	<div class="student_data_header">Related Objects and Documents</div>
+<% end %>
+<% if is_editing || @materials.length > 0 %>
+	<div class="student_data_header_sub">In the Ledger:</div>
+	<%= edit_collection(is_editing) %>
+	<%= object_rows(@materials, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+<% end %>
+<% if is_editing || @student.offsite_materials.length > 0 %>
+	<div class="student_data_header_sub">Other:</div>
+	<%= edit_collection(is_editing) %>
+	<%= offsite_materials_row(@student, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+<% end %>
+	<%= edit_collection(is_editing) %>
+	<% citation = @student.citation_of_attendance
+	citation = "[We are currently working to update and confirm citations of attendance.]" if (citation == nil || citation.length == 0) && (@student.years_attended_lls.length > 0 || @student.years_attended_lfa.length > 0)
+	%>
+	<% if !is_editing && citation && citation.length > 0 %>
+	<span class="tooltip"><%= image_tag("help_thumb.sm.gif", { :alt => "help" }) %><span class="citation_help_tooltip">
+		The Citation of Attendance provides primary source documentation of the student’s attendance at the Litchfield Female Academy and/or the Litchfield Law School.  If a citation is absent, the student is thought to have attended but currently lacks primary source confirmation. <br /><br />
+		Records for the schools were sporadic, especially in the formative years of both institutions.  If instructors kept comprehensive records for the Litchfield Female Academy or the Litchfield Law School, they do not survive.  Researchers and staff have identified students through letters, diaries, family histories and genealogies, and town histories as well as catalogues of students printed in various years.   Art and needlework have provided further identification of Female Academy Students, and Litchfield County Bar records document a number of Law School students. The history of both schools and the identification of the students who attended them owe credit to the early 20th century research and documentation efforts of Emily Noyes Vanderpoel and Samuel Fisher, and the late 20th century research and documentation efforts of Lynne Templeton Brickley and the Litchfield Historical Society staff.
+	</span></span>
+	<% end %>
+	<%= student_row("CITATION OF ATTENDANCE:", citation, is_editing, "student", :citation_of_attendance, :string) %>
+	<%= student_row("Secondary Sources:", @student.secondary_sources, is_editing, "student", :secondary_sources, :string) %>
+	<%= edit_collection_end(is_editing) %>
+</div>
+</div>
+<% if !is_editing %>
+<hr class="clear_both" />
+<% end %>

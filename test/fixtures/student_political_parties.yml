@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  student_id: 1
+  political_party_id: 1
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  student_id: 14
+  political_party_id: 2
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec2:
+  id: 3
+  student_id: 17
+  political_party_id: 3
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+

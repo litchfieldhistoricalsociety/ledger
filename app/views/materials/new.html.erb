@@ -1,0 +1,8 @@
+<%= form_for(@material, :html => {:multipart => true}) do |f| %>
+<%= render :partial => 'form', :locals => { :is_editing => true } %>
+  <div class="actions">
+<%= create_submit_button("save", 'save_btn') %>
+<%= create_button("cancel", { :controller => 'admin', :action => 'index' }, 'cancel_btn') %>
+<!--    <%= f.submit('Create Object') %><%= link_to 'Cancel', { :controller => 'admin', :action => 'index' } %> -->
+  </div>
+<% end %>

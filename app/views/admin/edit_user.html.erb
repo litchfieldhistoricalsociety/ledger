@@ -1,0 +1,18 @@
+<div class="devise_outer">
+<h2>Edit <%= @resource_name.to_s.humanize %> <%= @user.email %></h2>
+
+<%= form_for(@resource, :as => @resource_name, :url => { :controller => 'admin', :action => 'update_user' }) do |f| %>
+<input type="hidden" name="id" value="<%= @user.id %>" />
+  <%#= devise_error_messages! %>
+
+  <p><%= f.label :permissions %><br />
+  <%= f.select :permissions, [ 'Administrator', 'Full', 'Maintenance' ], { :selected => @user.permissions } %></p>
+  <div>Administrator: can create users and manage accounts</div>
+  <div>Full: can delete records</div>
+  <div>Maintenance: can and and edit records</div>
+
+  <p><%= f.submit "Update" %></p>
+<% end %>
+
+<%= link_to "Back", :back %>
+</div>

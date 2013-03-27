@@ -1,0 +1,268 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  student_id: 1
+  profession_id: 1
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  student_id: 1
+  profession_id: 2
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec2:
+  id: 3
+  student_id: 1
+  profession_id: 3
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec3:
+  id: 4
+  student_id: 2
+  profession_id: 1
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec4:
+  id: 5
+  student_id: 2
+  profession_id: 4
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec5:
+  id: 7
+  student_id: 4
+  profession_id: 1
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec6:
+  id: 8
+  student_id: 5
+  profession_id: 1
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec7:
+  id: 9
+  student_id: 5
+  profession_id: 3
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec8:
+  id: 10
+  student_id: 6
+  profession_id: 4
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec9:
+  id: 11
+  student_id: 6
+  profession_id: 2
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec10:
+  id: 12
+  student_id: 6
+  profession_id: 3
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec11:
+  id: 13
+  student_id: 7
+  profession_id: 2
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec12:
+  id: 14
+  student_id: 8
+  profession_id: 3
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec13:
+  id: 15
+  student_id: 9
+  profession_id: 1
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec14:
+  id: 16
+  student_id: 10
+  profession_id: 1
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec15:
+  id: 17
+  student_id: 10
+  profession_id: 6
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec16:
+  id: 18
+  student_id: 11
+  profession_id: 1
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec17:
+  id: 19
+  student_id: 11
+  profession_id: 3
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec18:
+  id: 20
+  student_id: 12
+  profession_id: 2
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec19:
+  id: 21
+  student_id: 12
+  profession_id: 4
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec20:
+  id: 22
+  student_id: 12
+  profession_id: 1
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec21:
+  id: 23
+  student_id: 12
+  profession_id: 3
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec22:
+  id: 24
+  student_id: 13
+  profession_id: 1
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec23:
+  id: 25
+  student_id: 13
+  profession_id: 3
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec24:
+  id: 26
+  student_id: 14
+  profession_id: 1
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec25:
+  id: 27
+  student_id: 14
+  profession_id: 3
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec26:
+  id: 28
+  student_id: 16
+  profession_id: 4
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec27:
+  id: 29
+  student_id: 16
+  profession_id: 3
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec28:
+  id: 30
+  student_id: 17
+  profession_id: 1
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec29:
+  id: 31
+  student_id: 17
+  profession_id: 3
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec30:
+  id: 32
+  student_id: 19
+  profession_id: 1
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec31:
+  id: 33
+  student_id: 19
+  profession_id: 3
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec32:
+  id: 34
+  student_id: 20
+  profession_id: 1
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec33:
+  id: 35
+  student_id: 20
+  profession_id: 7
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec34:
+  id: 36
+  student_id: 21
+  profession_id: 5
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec35:
+  id: 37
+  student_id: 22
+  profession_id: 5
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec36:
+  id: 38
+  student_id: 3
+  profession_id: 3
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec37:
+  id: 39
+  student_id: 3
+  profession_id: 4
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+

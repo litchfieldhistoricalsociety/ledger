@@ -1,0 +1,38 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# student_name: string school (LLS | LFA) %>
+<% label = school == 'LLS' ? "Law School Students" : (school == 'LFA' ? "Female Academy Students" : "Non-Students" ) %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }, { :label => label, :type => school }]) %> > by Name</div>
+<% base_url = { :controller => 'browse', :action => 'index', :type => @type, :subtype => @subtype} %>
+<div class="browse_dates">
+<%= create_date_range('A', base_url, @selection) %> •
+<%= create_date_range('B', base_url, @selection) %> •
+<%= create_date_range('C', base_url, @selection) %> •
+<%= create_date_range('D', base_url, @selection) %> •
+<%= create_date_range('E', base_url, @selection) %> •
+<%= create_date_range('F', base_url, @selection) %> •
+<%= create_date_range('G', base_url, @selection) %> •
+<%= create_date_range('H', base_url, @selection) %> •
+<%= create_date_range('I', base_url, @selection) %> •
+<%= create_date_range('J', base_url, @selection) %> •
+<%= create_date_range('K', base_url, @selection) %> •
+<%= create_date_range('L', base_url, @selection) %> •
+<%= create_date_range('M', base_url, @selection) %> •
+<%= create_date_range('N', base_url, @selection) %> •
+<%= create_date_range('O', base_url, @selection) %> •
+<%= create_date_range('P', base_url, @selection) %> •
+<%= create_date_range('Q', base_url, @selection) %> •
+<%= create_date_range('R', base_url, @selection) %> •
+<%= create_date_range('S', base_url, @selection) %> •
+<%= create_date_range('T', base_url, @selection) %> •
+<%= create_date_range('U', base_url, @selection) %> •
+<%= create_date_range('V', base_url, @selection) %> •
+<%= create_date_range('W', base_url, @selection) %> •
+<%= create_date_range('X', base_url, @selection) %> •
+<%= create_date_range('Y', base_url, @selection) %> •
+<%= create_date_range('Z', base_url, @selection) %>
+</div>
+<%= render :partial => 'three_column_list', :locals => { :list_item => @list, :action => { :controller => 'students', :action => 'show' }, :label_column => :id, :table_class => "student_browse_list" } %>

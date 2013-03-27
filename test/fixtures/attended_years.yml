@@ -1,0 +1,461 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  student_id: 1
+  school: "LLS"
+  year: 1823
+  comment: ""
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  student_id: 2
+  school: "LLS"
+  year: 1823
+  comment: ""
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec2:
+  id: 4
+  student_id: 4
+  school: "LLS"
+  year: 1794
+  comment: ""
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec3:
+  id: 5
+  student_id: 5
+  school: "LLS"
+  year: 1822
+  comment: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec4:
+  id: 6
+  student_id: 6
+  school: "LLS"
+  year: 1833
+  comment: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec5:
+  id: 7
+  student_id: 7
+  school: "LLS"
+  year: 1820
+  comment: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec6:
+  id: 8
+  student_id: 8
+  school: "LLS"
+  year: 1796
+  comment: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec7:
+  id: 9
+  student_id: 9
+  school: "LLS"
+  year: 1832
+  comment: ""
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec8:
+  id: 10
+  student_id: 10
+  school: "LLS"
+  year: 1821
+  comment: ""
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec9:
+  id: 11
+  student_id: 11
+  school: "LLS"
+  year: 1808
+  comment: ""
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec10:
+  id: 12
+  student_id: 12
+  school: "LLS"
+  year: 1823
+  comment: ""
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec11:
+  id: 13
+  student_id: 13
+  school: "LLS"
+  year: 1801
+  comment: ""
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec12:
+  id: 14
+  student_id: 14
+  school: "LLS"
+  year: 1784
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec13:
+  id: 15
+  student_id: 15
+  school: "LLS"
+  year: 1811
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec14:
+  id: 16
+  student_id: 16
+  school: "LLS"
+  year: 1821
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec15:
+  id: 17
+  student_id: 17
+  school: "LLS"
+  year: 1824
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec16:
+  id: 18
+  student_id: 18
+  school: "LLS"
+  year: 1818
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec17:
+  id: 19
+  student_id: 19
+  school: "LLS"
+  year: 1824
+  comment: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec18:
+  id: 20
+  student_id: 20
+  school: "LLS"
+  year: 1813
+  comment: ""
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec19:
+  id: 21
+  student_id: 21
+  school: "LFA"
+  year: 1808
+  comment: "c."
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec20:
+  id: 22
+  student_id: 21
+  school: "LFA"
+  year: 1809
+  comment: "c."
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec21:
+  id: 23
+  student_id: 21
+  school: "LFA"
+  year: 1810
+  comment: "c."
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec22:
+  id: 24
+  student_id: 22
+  school: "LFA"
+  year: 1829
+  comment: ""
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec23:
+  id: 25
+  student_id: 23
+  school: "LFA"
+  year: 1819
+  comment: ""
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec24:
+  id: 26
+  student_id: 24
+  school: "LFA"
+  year: 1828
+  comment: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec25:
+  id: 27
+  student_id: 25
+  school: "LFA"
+  year: 1829
+  comment: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec26:
+  id: 28
+  student_id: 26
+  school: "LFA"
+  year: 1816
+  comment: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec27:
+  id: 29
+  student_id: 26
+  school: "LFA"
+  year: 1817
+  comment: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec28:
+  id: 30
+  student_id: 29
+  school: "LFA"
+  year: 1825
+  comment: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec29:
+  id: 31
+  student_id: 3
+  school: "LFA"
+  year: 1820
+  comment: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec30:
+  id: 32
+  student_id: 3
+  school: "LFA"
+  year: 1821
+  comment: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec31:
+  id: 33
+  student_id: 30
+  school: "LFA"
+  year: 1800
+  comment: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec32:
+  id: 34
+  student_id: 30
+  school: "LFA"
+  year: 1802
+  comment: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec33:
+  id: 35
+  student_id: 30
+  school: "LFA"
+  year: 1803
+  comment: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec34:
+  id: 36
+  student_id: 31
+  school: "LFA"
+  year: 1828
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec35:
+  id: 37
+  student_id: 31
+  school: "LFA"
+  year: 1829
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec36:
+  id: 38
+  student_id: 31
+  school: "LFA"
+  year: 1830
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec37:
+  id: 39
+  student_id: 31
+  school: "LFA"
+  year: 1831
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec38:
+  id: 40
+  student_id: 33
+  school: "LFA"
+  year: 1831
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec39:
+  id: 41
+  student_id: 33
+  school: "LFA"
+  year: 1832
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec40:
+  id: 42
+  student_id: 35
+  school: "LFA"
+  year: 1828
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec41:
+  id: 43
+  student_id: 35
+  school: "LFA"
+  year: 1829
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec42:
+  id: 44
+  student_id: 35
+  school: "LFA"
+  year: 1830
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec43:
+  id: 45
+  student_id: 36
+  school: "LFA"
+  year: 1826
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec44:
+  id: 46
+  student_id: 37
+  school: "LFA"
+  year: 1823
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec45:
+  id: 47
+  student_id: 37
+  school: "LFA"
+  year: 1824
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec46:
+  id: 48
+  student_id: 37
+  school: "LFA"
+  year: 1825
+  comment: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec47:
+  id: 49
+  student_id: 38
+  school: "LFA"
+  year: 1828
+  comment: ""
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+
+rec48:
+  id: 50
+  student_id: 39
+  school: "LFA"
+  year: 1801
+  comment: ""
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+
+rec49:
+  id: 51
+  student_id: 39
+  school: "LFA"
+  year: 1802
+  comment: ""
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+
+rec50:
+  id: 52
+  student_id: 39
+  school: "LFA"
+  year: 1803
+  comment: ""
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+

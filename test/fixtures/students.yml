@@ -1,0 +1,1245 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  name: "Nehemiah  Abbott"
+  other_name: 
+  spouse_name: "Caroline Williams Belcher"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Sidney"
+  home_state: "ME"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0036-06-28
+  second_marriage_date: 
+  birthdate: 0004-03-29
+  deathdate: 0077-07-26
+  other_education: "Graduated Columbia College in 1822"
+  admitted_to_bar: "Bangor, ME in 1836"
+  training_with_other_lawyers: "Abbott spent a year (1839-1840) in Columbus, MI practicing law with his brother Howard Brooks Abbott"
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Asa Abbott"
+  biographical_notes: "Nehemiah was the fourth child of Asa Abbott, a successful land speculator, and his wife Hephzibah Brooks Abbot.  Nehemiah graduated from Columbia College in 1822 before attending the LLS.  He was admitted to the bar in Bangor, ME in 1836 and practed for three years in Calais, ME.  After spending a year in Columbus, MI practicing law with his brother Howard Brooks Abbot, he settled in Belfast, ME in 1840.  He was the editor of the People's Advocate in Belfast in 1844.  Abbott served as the Mayor of Belfast, ME from 1855 to 1856 and then as a United States Congressman from 1857 to 1859.  He married Caroline Williams Belcher, the eldest child of Clifford and Deborah Allen Belcher on June 28, 1836.  They had six children.  Abbott died on July 26, 1877 at the age of seventy-three. "
+  citation_of_attendance: ""
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Abbott, Lemuel Abijah. Descendants of George Abbott, of Rowley, Mass, vol. I. Published by Compiler, 1906.; Williamson, Joseph.  Hist of the City of Belfast In the State of Maine, Vol. I. Somersworth, NH: New England History Press, 1982.; Biographical Guide to Congress    
+"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  name: "George Abeel"
+  other_name: 
+  spouse_name: ""
+  gender: "M"
+  room_and_board: ""
+  home_town: ""
+  home_state: ""
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0084-10-26
+  other_education: "Entered Columbia College in 1822"
+  admitted_to_bar: "New York, NY March 3, 1826"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Garret Byvace Abeel"
+  biographical_notes: "George Abeel was the son of Garret Byvace Abeel, the owner of  an iron and hardware business. He was one of twelve children. In 1822, he entered Columbia College and then enrolled in the LLS in 1823.  He was admitted to the bar in 1826 and practiced as a lawyer in New York City until 1832.  He then left his law practice to take over his father's iron and hardware business with his brothers Alfred and John Howard Abeel.  They named their firm Abeel Brothers, Iron Merchants. In 1840 he retired and traveled both at home as well as abroad. During his lifetime George was also a founder of the St. Nicholas Society and a Trustee of East River Savings Institution. He died on October 26, 1884 at the age of 84.     "
+  citation_of_attendance: "Litchfield Eagle, October 6, 1823; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 19. "
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Minute Book, Supreme Court of Justice, Albany NY; Whittemore, Henry, Comp. Abeel & Allied Families. NY: 1899."
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec2:
+  id: 3
+  name: "Charles Adams"
+  other_name: ""
+  spouse_name: "Jane C. Hinman"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 0027-02-12
+  second_marriage_date: 1830-02-14
+  birthdate: 0005-05-18
+  deathdate: 
+  other_education: "Andover College in 1811"
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "John Adams"
+  biographical_notes: "Charles Adams of Litchfield, CT is known to have attended Sarah Pierce's Female Academy from 1820-1821. Born in 1805 to Joseph Adams and Deborah Marsh, Charles was one of eight children. Charles was a publisher of the Litchfield Enquirer, a Justice of the Peace, Judge of Probate, and held other political positions in Litchfield. Charles married Jane Hinman in 1827 and he married Julia Hinman in 1830 after the death of his first wife. Charles and his second wife Julia had ten children. "
+  citation_of_attendance: "1820 Litchfield Female Academy Summer Session Catalogue (ENV More Chronicles page 29);  1821 Litchfield Female Academy Catalog Summer Session (ENV More Chronicles page 39)"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec3:
+  id: 4
+  name: "Elijah  Adams"
+  other_name: 
+  spouse_name: "Minerva"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0038-03-23
+  other_education: ""
+  admitted_to_bar: "CT in 1795 and NY in 1807"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Andrew Adams"
+  biographical_notes: "Elijah was the son of Andrew Adams and Eunice Peck Canfield of Litchfield.  His father attended Yale in 1760 and moved to Litchfield to practice Law in 1774, later becoming the Justice of the Peace for Litchfield County as well as Chief Justice of the Superior Court of Connecticut.  Adams, the fifth of eight children, also pursued a legal career.   He was admitted to the bar in 1795 and practiced law in Litchfield from 1799 to 1806.  He then moved to Geneva NY in 1806 and was admitted to the bar there in 1807.   He married a woman named Minerva and died in Carmel, NY on March 23, 1838.  "
+  citation_of_attendance: "Moothall Society Record Books, Litchfield Law School Collection Series 1: Period Documents: Subseries 3: Other Papers lists Adams as the Vice President."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "NY Evening Post  28 March 1838
+ Kilbourne, Dwight C. The Bench and Bar of Litchfield County, Connecticut 1709-1909. Litchfield, CT: Published by the Author, 1909.
+"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec4:
+  id: 5
+  name: "John Frink Adams"
+  other_name: 
+  spouse_name: "Elizabeth Lovell Walker"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Leicester"
+  home_state: "MA"
+  spouse_home_town: "Leominster"
+  spouse_home_state: "MA"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0035-07-02
+  second_marriage_date: 
+  birthdate: 0099-11-03
+  deathdate: 0083-05-10
+  other_education: "Dartmouth College in 1817"
+  admitted_to_bar: "NY in 1823"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Ebenezer Adams"
+  biographical_notes: "John Frink Adams was the son of Ebenezer and Alice (Frink) Adams.  John attended Dartmouth College in 1817 and then taught for several years, first for a year at Leichester Academy and then in Cumberland County, VA for three years.  Adams then attended the LLS in 1823.  He was admitted to the bar and practiced law in Watertown, NY until 1825.  In 1826 he moved to Lyme, NH for only one year and then moved to Mobile, AL where he practiced law for the next 26 years.  While in Mobile he married Elizabeth Lovell Walker of Leominster, AL who's father Lovell Walker was a fellow alumnae of Dartmouth College.  In 1853, he moved to Washington, D.C. where he worked as a clerk in the Pension Office and later as a clerk in the Land Office.  He died in Baltimore, MD at the age of sixty."
+  citation_of_attendance: "Litchfield Eagle, October 6, 1823; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 18."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec5:
+  id: 6
+  name: "John Turvill Adams"
+  other_name: 
+  spouse_name: "1 - Hannah P. Huntinton  2 - Elizabeth Lee Dwight"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Demerara"
+  home_state: "British Guiana"
+  spouse_home_town: "1 & 2 Norwich"
+  spouse_home_state: "CT"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 1826-12-20
+  second_marriage_date: 
+  birthdate: 0005-09-29
+  deathdate: 0082-03-30
+  other_education: "Yale in 1824"
+  admitted_to_bar: "CT in 1834"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Richard Adams"
+  biographical_notes: "John Turvill Adams was the son of Richard Adams of England.  He was born in Demerara, British Guiana but his family later moved to Norwich, CT in 1810.  Adams attended Yale in 1824 and then worked as a merchant in New York City from 1825 to 1828.  From 1828 to 1833 he served as the editor of the Norwich Republican.  He attended the LLS in 1833 and passed the bar in 1834.  He then went on to practice law in Cass County, Michigan from 1836-38 then in Harrisburgh, PA from 1840-44.  He returned to Norwich, CT in 1844 where he continued to practice law.  However, Adam also did work as both an author and a politician.  He wrote The Lost Hunter and Other Tales and served first in the CT House of Representative from 1860 to 1863 and then the CT Senate in 1864.  Adams married twice in his lifetime.   His first wife Hannah was the daughter of Joseph Huntington of Norwich. His second wife, Elizabeth was the daughter of Benjamin Lee of Norwich. They (with first or second wife??) had two children. He died in his home of Norwich, CT.  "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1848), 24."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Yale College.  Biographical Sketches of the Class of 1824: Compiled from Authentic Documents, and Published for the benefit of the members. Norwalk, CT: A.H. Byington, Printer, 1855.
+"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec6:
+  id: 7
+  name: "Joseph Thornton Adams"
+  other_name: 
+  spouse_name: "Susan Pierce Jarvis"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Roxbury"
+  home_state: "MA"
+  spouse_home_town: "Clermont"
+  spouse_home_state: "NH"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0030-08-30
+  second_marriage_date: 
+  birthdate: 0096-06-15
+  deathdate: 0078-02-26
+  other_education: "Harvard for his bachelors in 1820 and masters degree in 1823"
+  admitted_to_bar: "1820"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Joseph Adams"
+  biographical_notes: "Joseph Thornton Adams attended Harvard receiving his  Bachlor's in 1820 and Master's in 1823.  Dring his time at Harvard, he was reportedly punished for several offenses.  For the firing of a pistol, he was suspended and sent to Rev. Mr. White at Dedham for instruction.  He was later readmitted to Harvard and granted leave to teach school, but was then fined for a festive entertainment at Porter's Tavern.   However, he was still assigned a commencement part.  During his life Adams was also an editor at the Boston Sentinel, a collector at the Port of New Bedford, MA and for the last twenty years of his life a clerk in the Treasury.  He died in Washington, D.C.  "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 17."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec7:
+  id: 8
+  name: "Rufus Adams"
+  other_name: 
+  spouse_name: "Joanna Byers"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Canterbury"
+  home_state: "CT"
+  spouse_home_town: "Springfield"
+  spouse_home_state: "MA"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0007-11-26
+  second_marriage_date: 
+  birthdate: 0074-05-06
+  deathdate: 0040-12-21
+  other_education: "Yale in 1795"
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Nathan Adams"
+  biographical_notes: "Rufus was the son of Nathan and Ohebe Ensworth Adams.  He attended Yale in 1795 and then studied at the LLS in 1796.  Adams then launched a lengthy political career serving thirteen times in the CT House of Representatives between 1805 and 1827.  He married Joanna Byers of Springfirled, MA on November 26, 1807.  He died in Canterbury, CT at the age of sixty-six.  "
+  citation_of_attendance: "Moothall Society Record Books, Litchfield Law School Collection Series 1: Period Documents: Subseries 3: Other Papers lists Adams as a member."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec8:
+  id: 9
+  name: "Charles Aiken"
+  other_name: 
+  spouse_name: "Adeline Willey"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Bedford"
+  home_state: "NH"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0039-05-02
+  second_marriage_date: 
+  birthdate: 0002-03-02
+  deathdate: 0094-05-05
+  other_education: "Exeter in 1825"
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Phineas Aiken"
+  biographical_notes: "Charles Aiken was born in 1802 in Bedford, NH.  He studied at Exeter in 1825 before attending the LLS.  Aiken later practied law in Wrights, CA.  He died in 1894 at the age of ninety-two.  "
+  citation_of_attendance: ""
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "History of Bedford New Hampshire From 1737. Concord, NH: The Rumford Printing Company, 1903."
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec9:
+  id: 10
+  name: "John Adams Albro"
+  other_name: 
+  spouse_name: "Elizabeth S. Salter"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Newport"
+  home_state: "RI"
+  spouse_home_town: "Mansfield"
+  spouse_home_state: "CT"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0028-08-20
+  second_marriage_date: 
+  birthdate: 0099-08-13
+  deathdate: 0066-12-20
+  other_education: "Andover Theological Seminary in 1827"
+  admitted_to_bar: "1821"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: ""
+  biographical_notes: "John Adams Albro was born in Newport, RI.  He attended the LLS in 1821 and was admitted to the bar that same year.  After spending several years as an attorney in Windham County, CT, Albro went to study at the Andover Theological Seminary in 1827 to become a minister.  He was ordained on November 21, 1827 and spent the rest of his life as a minister.  Albro spent several years in Chelmsford, MA from 1827-1833 and then spent the next two years as a minister in the town of Fitchburg, MA.  Finally he preached for thirty years in Cambridge, MA from 1835-65.  He died in West Roxbury, MA. "
+  citation_of_attendance: "Litchfield Eagle, October 7, 1822.; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 17."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Paige, Lucius Robinson,  History of Cambridge, Massachusetts. 1630-1877. Boston: H.O. Houghton and Company, 1877."
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec10:
+  id: 11
+  name: "Cyrus Alden"
+  other_name: 
+  spouse_name: "Mary Margaret Jones"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Bridgewater"
+  home_state: "MA"
+  spouse_home_town: "Providence"
+  spouse_home_state: "RI"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0013-05-24
+  second_marriage_date: 
+  birthdate: 0087-05-20
+  deathdate: 0055-03-29
+  other_education: "Brown University in 1807"
+  admitted_to_bar: "CT in 1810"
+  training_with_other_lawyers: "After attending the LLS Alden studied law with Judge Rice in Litchfield and late rwith Judge William Baylies of West Bridgewater, CT.  "
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Captain Joseph Alden"
+  biographical_notes: "Cyrus Alden was the son of Captain Joseph Alden and Bethiah Carver.  He was the fifth of nine children born in Bridgewater, CT.  Alden graduated from Brown University in 1807 and then attended the LLS in 1808.  He then studied law with Judge Rice in Litchfield and later with Judge William Baylies of West Bridgewater, CT.  After he was admitted to the bar in 1810, Alden began to practice law that same year in Wenham, MA.  He worked there for six years before moving to Boston to practice law from 1816-22.   Alden left Boston to pursue a legal practice in Fall River, MA.  In addition to his legal career, Alden also pursued literary and political interests. In 1819 he published \"Abridgement of Law with Practical Forms\", which was comprised of over 800 pages and eight volumes.  He also served as a MA State Legislature representing Fall River.  Alden married Mary Margaret Jones of Providence, RI and they had eight children.  He died on March 29, 1855 a the age of forty-seven. "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany, and Company, 1849), 7."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Alden, M.D., Ebenezer. Memorial of the Descendants of Hon. John Alden. Randolph, MA: Samuel P. Brown, 1867."
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec11:
+  id: 12
+  name: "Hiram Orlando Alden"
+  other_name: 
+  spouse_name: "Emily Bingham"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Claremont"
+  home_state: "NH"
+  spouse_home_town: "Claremont"
+  spouse_home_state: "NH"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0082-04-15
+  other_education: "Dartmouth College 1819 to 1821 and Union College from 1821 to 1823"
+  admitted_to_bar: "AL in 1824 and ME in 1826"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Colonel Joseph Alden"
+  biographical_notes: "Hiram Orlando Alden was the son of Colonel Joseph Alden of Woburn, MA and Claremont, NH and Lucy Warner.  He was born in Claremont, NH.  In 1819, Alden entered Dartmouth College but left in 1821 to attend Union College where he graduated in 1823.  he then attended the LLS from 1823-1824.  He passed the bar in Hutsville, AL in 1824 and then again in 1826 in Castine, ME.  From 1827 to 1830 he was the editor of the Waldo Democrat and Republican Journal.  He was also the First Cashier of the Waldo Bank in 1834.  He then settled in Belfast, ME to practice law and from 1836-1849 was the partner of the Hon. William Crosby. From 1830 to 1841, he also served as the Postmaster of Belfast.  Alden retired from the law in 1849 and became the President of the Bank of Commerce in 1854 and in 1858 was President of the Belfast Gas Company.  Alden was an early promoter of the telegraph and from 1848 to 1876 was the President of the Maine Telegraph Company and served as a Vice President of the American Telegraph Company.  He also invested in land speculation in Illinois.  Alden married Emily Bingham of Claremont, NH and they had three sons and two daughters.  He died at the age of eighty-two.   "
+  citation_of_attendance: "Litchfield Eagle, October 6, 1823; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 19. "
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Alden, M.D., Ebenezer. Memorial of the Descendants of Hon. John Alden. Randolph, MA: Samuel P. Brown, 1867; Reid, James D. The Telegraph in America: Its Founders, Promoters, and Noted Men. Arno Press, 1974.      "
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec12:
+  id: 13
+  name: "Alexander Maben Allen"
+  other_name: 
+  spouse_name: "Mary Jones"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Wilkes County"
+  home_state: "GA"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0016-07-27
+  deathdate: 0087-05-01
+  other_education: ""
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Samuel Allen"
+  biographical_notes: "Alexander M. Allen was the son of Samuel Allen.  He attened the LLS in 1801.  In 1811 and then again between the years of 1813 and 1816, Allen was the Attorney General of GA.  From 1818 to 1821 Allen was the Solicitor General of the Middle Circuit of GA as well as a member of the GA House of Representatives.  In 1810 he married Mary Jones.  He died sometime after 1848. "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany, and Company, 1849), 4."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec13:
+  id: 14
+  name: "John  Allen"
+  other_name: 
+  spouse_name: "Ursula McCurdy"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Great Barrington"
+  home_state: "MA"
+  spouse_home_town: "Norwich"
+  spouse_home_state: "CT"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0063-06-12
+  deathdate: 0011-07-31
+  other_education: ""
+  admitted_to_bar: "CT around 1786"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: "Served as a clerk in 1796"
+  local_committees: ""
+  biographical_notes: "John Allen was the only son of a joiner (furniture maker) from Great Barrington, MA. His only other sibling, a sister, married Elizur Goodrich of New Haven.  John Allen only had a common education before attending Litchfield Law School and also worked as a teacher for several years.  As a minor, he taught younger children in a noted establishment in Germantown, PA. Allen then taught at New Milford, CT for six months.  He was admitted to the bar after attending LLS from 1784-86.  From 1793 to 1796, Allen represented Litchfield in the CT General Assembly.  In 1797, he was elected to the fifth U.S. Congress at the age of thirty-five.  However, Allen declined any further election to Congress after serving his first term.  In 1800, he was elected Assistant Judge to the CT Supreme Court of Errors and was subsequently reelected for the next five years.  His wife Ursula McCurdy was a graduate from the Litchfield Female Academy and the daughter of Lyne and Ursula McCurdy of Norwich, CT.  They had one son and one daughter.  Their son John Allen would become a U.S. Congressman from Cleveland, OH and also married Litchfield Female Academy student, Anna M. Perkins."
+  citation_of_attendance: ""
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Boardman, David Sherman. Sketches of the Early Lights of the Litchfield Bar. J. Humphrey, Jr., 1860."
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec14:
+  id: 15
+  name: "Zimri Enos Allen"
+  other_name: 
+  spouse_name: ""
+  gender: "M"
+  room_and_board: ""
+  home_town: "Colchester"
+  home_state: "VT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0013-08-22
+  other_education: "Vermont University "
+  admitted_to_bar: ""
+  training_with_other_lawyers: "Read the law with Hon. Charles Marsh of Woodstock, VT"
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Major General Ira Allen"
+  biographical_notes: "Zimri Enos Allen was the younger son of Major General Ira Allen and Jerusa Hayden Enos.  His father fought in the Revolutionary War with the Green Mountain Boys and later helped to establish the city of Colchester, VT.  Zimri pursued his studies at Vermont Univeristy, but did not receive a degree there.  Allen attended the LLS in 1811 but he died an early death at the age of twenty one.  "
+  citation_of_attendance: "William Keyes Bond List = 1811 - 1812; Litch. Co. Bar Assoc. Ledger = Reg. TR/JG = 1811 - this needs to be made into an understandable citation; Catalogue of Litchfield Law School (Hartford, Connecticut: Press of Tiffany, Case and Company, 1849), 10.
+"
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Allen, Orrin Peer. The Allen Memorial (Palmer, Mass.,Pub by Author, 1907).    "
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec15:
+  id: 16
+  name: "Joseph Tyler Allyn"
+  other_name: 
+  spouse_name: "Elizabeth Avery"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Montgomery"
+  home_state: "MA"
+  spouse_home_town: "Montgomery"
+  spouse_home_state: "MA"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0021-04-25
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0062-07-09
+  other_education: ""
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "David Allyn"
+  biographical_notes: "Joseph Tyler Allyn was the son of David Allyn and Desire Tyler.  He attended the LLS in 1821.  That same year he married Elizabeth Avery of Montgomery, MA.  The Allyn's moved to Norfolk, VA where Joseph was a hardware merchant and a Director of the Franklin Savings Bank.  He was also a member of the Norfolk City Council.  Allyn bought his wife's family home in Montgomery, MA and used it as a summer home.   He died in Norfolk, VA on July 9, 1862.  "
+  citation_of_attendance: "Litchfield Eagle, October 7, 1822.; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 18."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec16:
+  id: 17
+  name: "William Jeffreys Alston"
+  other_name: 
+  spouse_name: "1 - Martha Cade                                   2 - Harriet Harwell                                         3 - Mrs. Cheney                                         4 - Mrs. Mary Glover Shields Lowery"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Born in Elbert County, Georgia; grew up in Abbeville District, SC"
+  home_state: ""
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 0076-06-10
+  other_education: "Studied with Dr. Moses Waddell while in SC"
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Nathaniel Alston"
+  biographical_notes: "William Jeffresy Alston was the son of Nathaniel Alston and Mary Grey Jeffreys.  He studied with Dr. Moses Waddell in South Carolina before his family later moved to Marengo Co. Alabama.  Alston attended the LLS in 1824 and established his law practice in Linden, Marengo Co. AL.  He had an extensive political career throughout his life.  He was a member of the AL State House of Representatives from 1836-1837, 1843 and again from 1855-1857.  Alston was also a member of the AL State Senate from 1839 to 1842 and then a member of the U.S. Congress from 1849 to 1851.  Alston married four times.  His first marriage was to Martha Cade in 1824,  They had seven children together.  He then married Harriet Harwell in 1847 and had one son with her.  His third marriage was to a Mrs. Cheney and his fourth marriage to a Mrs. Mary Glover Shields Lowery which resulted in two sons.   He died on June 10, 1876 in Magnolia, AL. "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1848), 20. "
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Biographical Annals of the Civil Government of the United States During its first century: From Original and Official Sources by Charles Lanman, Washington, D.C.: James Anglim, 1876;                                                                           Biographical Directory of the American Congress, 1774-1971.  The Continential Congress (September 5, 1774 to October 21, 1788) and the Congress of the United States (from the first through the ninety-first Congress March 4, 1789 to January 3, 1971). Washington, D.C.: U.S. Government Printing Office, 1971; Biographical Directory of the United States Congress, 1774-1989.  The Continental Congress, September 5, 1774 to October 21, 1788 and the Congress of the United States from the first through the one hundredth Congresses, March 4, 1789 to January 3, 1989 Bicentennial Edition, Washington, D.C.: U.S. Government Printing Office;  Who Was Who in America. A Component volume of \"Who's Who in American History\" Historical Volume, 1607-1896; Groves, M.D., Joseph A. The Alstons & Allstons of North & South Carolina. Atlanta, GA.: The Franklin Printing and Publishing Co., 1901.      
+"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec17:
+  id: 18
+  name: "William Williams Alston"
+  other_name: 
+  spouse_name: "Mary Haywood Burges"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Greenville"
+  home_state: "SC"
+  spouse_home_town: ""
+  spouse_home_state: "NC"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0020-06-22
+  second_marriage_date: 
+  birthdate: 0099-03-27
+  deathdate: 
+  other_education: ""
+  admitted_to_bar: ""
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Judge Lemuel James Alston"
+  biographical_notes: "William Williams Alston was the son of Judge Lemuel James Alston and Elizabeth Williams.  In 1816, his family moved to Clarke County, AL.  Alston attended the LLS in 1818.  He then married Mary Haywood Burges of North Carolina in 1820.  They had eleven children.  He died of pneumonia while on a visit to Louisiana. "
+  citation_of_attendance: "Josiah Houghton, LLS Law Notebook 1817-1818, \"Catalogue of the Officers and Students of the Law Institution, Litchifeld, Cont.\"; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 15."
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Grove, Jospeh A. The Alstons & Allstons of North & South Carolina. Atlanta, GA.: The Franklin Printing and Publishing Co., 1901; Bailey, Louise N., et al. Biographical Directory of the South Carolina Senate, 1776 - 1985, Vol. I. University of South Carolina Press, 1986."
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec18:
+  id: 19
+  name: "Samuel  Ames"
+  other_name: 
+  spouse_name: "Mary Throop Door"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Providence"
+  home_state: "RI"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0039-06-27
+  second_marriage_date: 
+  birthdate: 0006-09-06
+  deathdate: 0065-12-20
+  other_education: "Phillips Academy in 1819; received a degree from Brown University in 1823"
+  admitted_to_bar: "RI in 1826"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Samuel Ames"
+  biographical_notes: "Samuel Ames was the eldest son of Samuel Ames and Anne Checkley. He studied at Phillips Academy Andover in 1819 and then received his degree from Brown in 1823.  He then attended the Litchfiled Law School in 1824. After he was admitted to the Rhode Island Bar in 1826, Ames opened an office in Providence.  In 1832 he assisted Joseph K. Angell in the preparation of his treatise on \"Corporation Law\".  He served as quartermaster general for the state troops during the\"Dorr Rebellion\" led by his wife's brother Thomas Wilson Dorr.  In addition to his political career, Ames had a successsful legal career.  He was a leader of the Rhode Island Bar and appeared several times before the Supreme Court.  In 1853, he represented Rhode Island in a boundary dispute with Massachusetts and in 1854 he chaired a commisssion to revise the state laws of Rhode Island, which resulted in the first complete restatement of the statutory laws of that state.  As the elected Chief Justice of the Supreme Court of Rhode Island, Ames ruled on the important case  Taylor vs. Place, in which he declared that the Genreal Assembly could not exercise judicial power as a court of appeal over the Supreme Court of RI.  Ames was also the Rhode Island representative at a peace conference in Washington, D.C. in 1865.  He died not long after this on December 20, 1865 at the age of fifty-nine.  "
+  citation_of_attendance: "Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1848), 20. "
+  image_id: 
+  secondary_sources: ""
+  additional_notes: "Lewis, William Draper. Great American Lawyers, Vol. 5. Philadelphia: The John C. Winston Company, 1908.; Payne, Abraham. Reminiscences of the Rhode Island Bar. Providence, RI: Tibbitts and Preston, 1885. 
+"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec19:
+  id: 20
+  name: "Franklin Anderson"
+  other_name: 
+  spouse_name: "Elizabeth Stirling"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Montgomery County"
+  home_state: "MD"
+  spouse_home_town: "Baltimore"
+  spouse_home_state: "MD"
+  spouse_education: 
+  spouse_occupation: 
+  marriage_date: 0031-11-10
+  second_marriage_date: 
+  birthdate: 0091-03-22
+  deathdate: 
+  other_education: "Princeton in 1809"
+  admitted_to_bar: "1815"
+  training_with_other_lawyers: ""
+  federal_committees: ""
+  state_committees: ""
+  local_committees: "Colonel Richard Anderson"
+  biographical_notes: "Franklin Anderson was the the son of Colonel Richard Anderson and Ann Wallace.  He first attended Princeton in 1809 and then the LLS in 1813.  Anderson was admitted to the bar in 1815, and was involved in a notable case in 1819.  He served as the prosecutor in the case of Reverend Gruber, who was accused of instigating slaves to commit mutiny and treason. The lawyer who defended the case was Roger Taney, later justice of the U.S. Supreme Court.  Anderson lived in Washington County, MD for most of his life and married Elizabeth Stirling.  He died at the age of fifty-three. "
+  citation_of_attendance: "Roger S. Baldwin  4 July 1813 List; Catalogue of the Litchfield Law School (Hartford, CT: Press of Case, Tiffany and Company, 1849), 11.   "
+  image_id: 
+  secondary_sources: ""
+  additional_notes: ""
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec20:
+  id: 21
+  name: "Harriet Abbe"
+  other_name: ""
+  spouse_name: ""
+  gender: "F"
+  room_and_board: ""
+  home_town: "East Windsor"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0091-08-19
+  deathdate: 0065-08-30
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Harriet Abbe, daugher of John Simmons Abbe and Hannah Billings, was born in East Windsor, CT on August 19, 1791. She was one of eleven children. From 1808 - 1810 Harriet attended the LFA where she became prepared to become a teacher herself. After completing her course work in Litchfield she taught in Richmond, VA, and in the 1830's she and her sister Mrs. Ann Kilbourn of Connecticut went to Lebanon, TN and opened a school for young ladies comparable to Campbell Academy for boys.  The Abbe Female Institute was chartered in 1846, and not only accepted female students, but male students as well. Following her two sisters' deaths she relocated to Henry Co., Iowa where her brother-in-law Miron Kilbourn was an early settller and Justice of the Peace. She remained there until her death in 1865."
+  citation_of_attendance: "Unconfirmed Student"
+  image_id: 
+  secondary_sources: "Dixon Merritt, ed. The History of Wilson County. Lenbanon, TN: The Tennessee Historical Commission, 1961; Abbe, Cleveland and Josephine Genung Nichols. Abbe - Abbey Genealogy: In Memory of John Abbe and His Descendants. New Haven, CT: The Tuttle, Morehouse & Taylor Co., 1916.                                                                                                                                                                                                                                                                               
+
+"
+  additional_notes: "“In the 1830's Miss Harriet Abbe and her sister Mrs. Ann [sic] Kilbourn from Connecticut came to Lebanon and opened a school for young ladies comparable to Campbell Academy for boys.  It was located a few hundred yards south on the boys’ school, on the wast side of North Cumberland St.  The schools operated with one board of trustees but this relationship was severed in 1846 when Abbe got its own charter.  Dr. F. R. Cossitt was named Chairman of the Board of Trustees.  Professor A. P. Stewart, later to become a Lieutenant General in the Army of the Confederacy, was principal of the school in 1856.”  p.  96 - Dixon Merritt (ed.), The History of Wilson County,   The Tennessee Historical Commission, Lebanon, TN, 1961 "
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec21:
+  id: 22
+  name: "Sophronia Kilbourn"
+  other_name: "Sophronia Abbe"
+  spouse_name: "Myron Kilbourn"
+  gender: "F"
+  room_and_board: ""
+  home_town: "East Windsor"
+  home_state: "CT"
+  spouse_home_town: "Litchfield"
+  spouse_home_state: "CT"
+  spouse_education: "Graduated from Hamilton College in 1823"
+  spouse_occupation: "Classical teacher and Justice of the Peace in Kentucky"
+  marriage_date: 0029-12-23
+  second_marriage_date: 
+  birthdate: 0011-01-20
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Sophronia Abbe attended LFA in 1829. Born in 1811 to John Simmons Abbe and Hannah Billings Sophronia followed in the footsetps of her sister Harriet and after completing her studies at LFA pursuied a career as a teacher. She taught at her sister's school in Richmond, VA and at the Abbe Institute in Tennessee.  In 1829 she married Myron Kilbourn of Litchfield in Tennessee, whome she had four children with before her death.  "
+  citation_of_attendance: "1829 Litchfield Female Academy Winter Session Catalogue (ENV Chronicles Appendix D page 430);  1829 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 431)"
+  image_id: 
+  secondary_sources: "Dixon Merritt, ed. The History of Wilson County. Lebanon, TN: The Tennessee Historical Commission, 1961; Abbe, Cleveland and Josephine Genung Nichols. Abbe - Abbey Genealogy: In Memory of John Abbe and His Descendants. New Haven, CT: The Tuttle, Morehouse & Taylor Co., 1916.                       
+
+
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec22:
+  id: 23
+  name: "Anna Bradley"
+  other_name: "Anna Abernethy"
+  spouse_name: "Alvin Bradley"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Harwinton"
+  home_state: "CT"
+  spouse_home_town: "Harwinton"
+  spouse_home_state: "CT"
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 0023-06-16
+  second_marriage_date: 
+  birthdate: 0001-01-11
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Anna Abernethy was born January 11, 1801 to Dr. Roswell Abernethy and Anna Catlin. She grew up in Harwinton, CT and prior to attending the Litchfield Female Academy in 1819, Anna attended the East Academy in Harwinton, CT in 1818. Four years after attending LFA she married Alvin Bradley, but little is known of her life after that."
+  citation_of_attendance: "1819 Litchfield Female Academy Winter Session Catalogue (ENV More Chronicles page 26)"
+  image_id: 
+  secondary_sources: "Bentely, Raymond George. History of Harwinton. Winsted, CT: Dowd Printing Co., 1970. 
+"
+  additional_notes: "Her borther, John Jay Abernethy, was born in Harwinton in 1805. He attended Yale University in 1825 and the NYC College of Physicians and Sergeons in 1828. After finishing his educaiton her served as a surgeon in the US Navy and was in active service during the Mexican War. After 1871 to retired to NYC, and upon his death in 1879 he left a $10,000 endowment to Yale University for scholarships."
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec23:
+  id: 24
+  name: "Mary Lucretia DeForest"
+  other_name: "Mary Abernethy"
+  spouse_name: "William Brintall DeForest"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Torrington"
+  home_state: "CT"
+  spouse_home_town: "New Haven"
+  spouse_home_state: "CT"
+  spouse_education: "Graduate of Princeton and Yale"
+  spouse_occupation: "Minister and Doctor"
+  marriage_date: 0036-05-03
+  second_marriage_date: 
+  birthdate: 0012-03-27
+  deathdate: 0077-04-03
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Mary Lucretia Abernethy, cousin of Anna Abernethy, was the dauther of Russell Satlin Abernethy and Aurelia (Orrel/Amelia) Smith Catlin. Her father served the community of Torrington as a successful merchant, but also as Justice of the Peace and Town Clerk. In 1828 Mary attened Sarah Pierce's LFA in Litchfield, and in 1836 married William Brintnall DeForest. DeForest was prepared by his early education to be a minister, but after being oradained for only two years his voice began to fail  him and he gave up the ministry. He then pursued a medical degree and practiced as a physician in Colebrook, CT, New York City, and New Haven, CT, where he also served as the Assistant Judge of the City Court. During there marriage Mary and William had two children, one son and one daughter. At the age of 75 Mary passed away."
+  citation_of_attendance: "1828 Litchfield Female Academy Catalogue (ENV Chronicles Appendix D page 426)"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: "After Mary's death her widower, William Brintnall DeForest, married a Miss Lynde of NYC."
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec24:
+  id: 25
+  name: "Abigail Adams"
+  other_name: ""
+  spouse_name: ""
+  gender: "F"
+  room_and_board: ""
+  home_town: "Amenia"
+  home_state: "NY"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Little is known about the life of Abigial Adams. The granddaughter of Abraham Adams and Abigail Adams, she was raised in Amenia, NY. In 1829 Abigail attended the LFA in Litchfield, CT. "
+  citation_of_attendance: "1829 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 431)"
+  image_id: 
+  secondary_sources: "Van Alstyne, Lawrence. Burying Grounds of Sharon, Connecticut, Amenia and North East, New York. Walsh, Griffen & Hoysradt, Printers, 1903. 
+
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec25:
+  id: 26
+  name: "Alinda Whiteside"
+  other_name: "Alinda Adams"
+  spouse_name: ""
+  gender: "F"
+  room_and_board: ""
+  home_town: "Burlington"
+  home_state: "VT"
+  spouse_home_town: "Possibly Montreal"
+  spouse_home_state: "Canada"
+  spouse_education: ""
+  spouse_occupation: "Merchant with Hudson Bay Company"
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Alinda Adams of Burlington, VT and LFA student from 1816-1817  became engaged to John Pierce Brace in 1817.  He traveled to Vermont to meet her family with Sarah Pierce and a fellow teacher Louisa Wait.  He described Alinda's father as a \"drunken blacksmith\" but that her siblings had \"made themselves noted.\"  Alinda's brother Charles opposed the engagment and Alinda was forced to end the affair.  John was heartbroken and Alinda was sent to Montreal, Canada to visit her sister.  It was there that she met and married Mr. Whiteside in 1817 or 1818, as merchant for the Hudson Bay Company."
+  citation_of_attendance: "1816 Litchfield Female Academy Catalog (ENV Chronicles Appendix D) - Mary Phelps made a pencil notation next to Alinda Adams name stating she was \"married\";  1817 Litchfield Female Academy Winter Session Catalogue (ENV More Chronicles page 18)"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec26:
+  id: 27
+  name: "Amos Adams"
+  other_name: ""
+  spouse_name: "Eliza Dean"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0098-08-11
+  deathdate: 0059-09-01
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Amos Adams, son of Joseph Adams and Deborah Marsh, was one of eight children who most likely attended Sarah Pierce's LFA in Litchfield, CT. Originally from Litchfield, Amos married Eliza Dean after attending the LFA, and his second marriage to Clara Stewart Baily took place in 1833. Although his life's occupation is unknown, Amos settled in Baton Rouge, LA and died in September of 1859."
+  citation_of_attendance: "Unconfirmed Student"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec27:
+  id: 28
+  name: "Betsey May"
+  other_name: "Betsey Adams"
+  spouse_name: "James May"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: "Bath"
+  spouse_home_state: "NY"
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0096-10-31
+  deathdate: 0077-05-22
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Betsey Adams, a Litchfield resident is believed to have attended Sarah Pierce's LFA in the early Nineteenth Century. One of eight children, three of whom are confirmed students of the LFA, Bestsey's father practiced law in Litchfield and also served the Female Academy as a trustee. Born on October  31,  1796 she later married James May of Bath, NY. "
+  citation_of_attendance: "Unconfirmed Student"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec28:
+  id: 29
+  name: "Catharine M. Adams"
+  other_name: ""
+  spouse_name: ""
+  gender: "F"
+  room_and_board: ""
+  home_town: "Fishkill"
+  home_state: "NY"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Little is known about the life of Catharine M. Adams. Coming from Fishkill, NY, she attended Sarah Pierce's Female Academy in 1825, but nothing is known of her life following her time in Litchfield."
+  citation_of_attendance: "1825 Litchfield Female Academy Catalogue (ENV Chronicles Appendix D)"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec29:
+  id: 30
+  name: "Cornelia Davis Tomlinson"
+  other_name: "Cornelia Davis Adams;                                                                                     Laura Adams"
+  spouse_name: "David Tomlinson"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: "Derby "
+  spouse_home_state: "CT"
+  spouse_education: "Graduated from Williams College in 1798; Studied Medicine and surgery under Dr. Wheeler of Red Hook, New York."
+  spouse_occupation: "Physician"
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0086-02-16
+  deathdate: 0067-04-01
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Cornelia Davis (Laura) Adams was the daugher of Andrew Adams, Jr. and Annis Canfield. Born in 1786, she attended LFA in 1800 and 1802. While Cornelia was at LFA she became involved with a student of the Law School whose last name was Rutledge. After setting a wedding date, problems emerged, and the engagement was broken.  Cornelia left Litchfield, and moved to Rhinebeck-on-Hudson, New York, where she lived with her aunt, Lydia Adams Cowles.  During her time there, she met and married a doctor, David Tomlinson of Derby, Connecticut. Throughout her life, Cornelia urged her female children and grandchildren to read frequently and to take their lessons seriously.  She loved discussing current events, and is has been recorded that two historians, Lossing and Dr. Francis, unsuccessfully urged her to write her memoirs of the United States’ early years as a republic. Cornelia and her husband David had eight chilren during their marriage. After Dr. Tomlinson passed away in 1840 she lived with her son Theodore until her death in April 1867.
+"
+  citation_of_attendance: "\"Beach, Lucy Sheldon (Mrs. Theron) 1802-1803 Journal\" (Litchfield Historical Society); Mentioned in Mary Ann Bacon's Diary 1802 (ENV Chronicles page 67); \"Beach, Luch Sheldon (Mrs. Theron) 1803 Jan 28\" Journal (Litchfield Historical Society)"
+  image_id: 
+  secondary_sources: "Fessenden, Laura Dayton. Genealogical Story (Dayton and Tomlinson). Crist, Scott, and Parshall, 1902.
+"
+  additional_notes: "Laura Dayton Jessender (sp?) wrote a letter to ENV noting that her grandmother and great aunt attended the LFA - Cornelia Adams Tomlinson and Maria Adams Tallmadge (ENV Scrapbook)"
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec30:
+  id: 31
+  name: "Eliza Sedgwick"
+  other_name: "Eliza Adam"
+  spouse_name: "Philo C. Sedgwick"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Canaan"
+  home_state: "CT"
+  spouse_home_town: "Cornwall"
+  spouse_home_state: "CT"
+  spouse_education: "Norwich University; Litchfield Law School  "
+  spouse_occupation: "Lawyer"
+  marriage_date: 0033-10-02
+  second_marriage_date: 
+  birthdate: 0015-08-20
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Eliza Adam, daughter of John Adams, attended Sarah Pierce's Female Academy from 1828-1831. On October 2, 1833 she married Philo C. Sedgwick of Cornwall, CT. Eliza and Philo had five children. "
+  citation_of_attendance: "1828 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 428);  1829 Litchfield Female Academy Winter Session Catalogue (ENV Chronicles Appendix D page 430);  1829 Litchfield Female Academy Summer Session Catalogue (ENV Chro"
+  image_id: 
+  secondary_sources: "Sedgwick, Hubert Merrill. A Sedgwick Genealogy. New Haven Colony Historical Society, 1961.; Ellis, William Arba, Comp. Norwich University 1819-1911. Her History, Her Gradutes, Her Roll of Honor, Vol. 2. Montpelier, VT: The Capital City Press, 1911.
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec31:
+  id: 32
+  name: "Henry Adams"
+  other_name: ""
+  spouse_name: "Mary S. Fairchild"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0094-08-18
+  deathdate: 0042-02-11
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Henry Adams is thought to have attended the Litchfield Female Academy. The son of Joseph Adams, a lawyer in Litchfield and trustee of the Female Academy, Henry was one of eight children, three who have been confirmed as students of Sarah Pierce's academy. In 1821 Henry married Mary S. Fairchild, and in 1842 he passed away."
+  citation_of_attendance: "Unconfirmed Student"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec32:
+  id: 33
+  name: "Jane Elizabeth Pierce"
+  other_name: "Jane Elizabeth Adam"
+  spouse_name: "William G. Pierce"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Canaan"
+  home_state: "CT"
+  spouse_home_town: "Canaan"
+  spouse_home_state: "CT"
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 0043-05-01
+  second_marriage_date: 
+  birthdate: 0015-11-16
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Jane Elizabeth Adam, born in Canaan, CT to Leonard Adam and Arabella Cook on November 16, 1815, attended the Litchfield Female Academy from 1831 to 1832. Her sister Lucy had attended the Female Academy three years earlier in 1828. After finishing her studies, Jane later married William G. Pierce also of Canaan, CT."
+  citation_of_attendance: "1831 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 438);  1832 Litchfield Female Academy Winter Session Catalogue (ENV Chronicles Appendix D page 439)"
+  image_id: 
+  secondary_sources: "Adam Geneology; White, Lorraine Cooke. The Barbour Collection of Connecticut Town Vital Records: Canaan, 1739 - 1852, Canterbury, 1703 - 1850. Genealogical Pub. Co., 1996.
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec33:
+  id: 34
+  name: "John Marsh Adams"
+  other_name: ""
+  spouse_name: "Sarah Susannah MacMurphy"
+  gender: "M"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: "Augusta"
+  spouse_home_state: "GA"
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 0029-10-09
+  second_marriage_date: 
+  birthdate: 0001-04-16
+  deathdate: 0053-01-22
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "John Marsh Adams is believed to have attended the Litchfield Female Academy. Three of his seven siblings are known to have attended the Academy, and not only did his parents, Joseph Adams and Deborah Marsh, raise all eight children in Litchfield, but Joseph was also a trustee of the Female Academy. On October 9, 1829 John married Sarah Sussanah Mac Murphy of Augusta, GA where they resided until his death in 1853."
+  citation_of_attendance: "Unconfirmed Student"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec34:
+  id: 35
+  name: "Julia Adams"
+  other_name: ""
+  spouse_name: ""
+  gender: "F"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: ""
+  spouse_home_state: ""
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Julia Adams, sister of Cornelia Davis (Laura) Adams, attended the Litchfield Female Academy from 1828-1830. Her parents, Andrew Adams, Jr. and Annis Canfield resided in Litchfield, CT where Andrew worked as a town politican and tax collector. "
+  citation_of_attendance: "1828 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 428);  1829 Litchfield Female Academy Winter Session Catalogue (ENV Chronicles Appendix D page 430);  1829 Litchfield Female Academy Summer Session Catalogue (ENV Chro"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec35:
+  id: 36
+  name: "Julia Cake"
+  other_name: "Julia Adams"
+  spouse_name: "Joseph Warren Cake"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Washington"
+  home_state: "CT"
+  spouse_home_town: "Pottsdam"
+  spouse_home_state: "PA"
+  spouse_education: ""
+  spouse_occupation: "Collector of the Port of Philadelphia; President of the Farmer's Bank of Schuylkill County."
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 0013-01-07
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Little is known about the life of Julia Adams of Washington, CT. The daughter of John Adams and Amy Brown, Julia was born January 7, 1813. In 1826 she attended the Litchfield Female Academy, and later married Joseph Warren Cake of Pottsdam, PA."
+  citation_of_attendance: "1826 Litchfield Female Academy Catalogue (ENV Chronicles Appendix D page 423);  The marriage of Julia Adams to John Coke (or Cake?) is noted by ENV in Chronicles (Appendix D page 436)"
+  image_id: 
+  secondary_sources: "Cook, Lorraine White. The Barbour Collection of Connecticut Town Vital Records: Warren 1786-1850; Washington 1779-1854; Waterford 1801-1851; Westbrook 1840-1851. Genealogical Publishing Company, 2002.; Wright, Henry P., comp. History of the Class of 1868 Yale College. New Haven: The Tuttle, Morehouse and Taylor Press, 1914.
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec36:
+  id: 37
+  name: "Keziah Holt Rogers"
+  other_name: "Keziah Holt Adams"
+  spouse_name: "Henry W. Rogers"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: "Buffalo"
+  spouse_home_state: "NY"
+  spouse_education: ""
+  spouse_occupation: "Lawyer"
+  marriage_date: 0028-12-02
+  second_marriage_date: 
+  birthdate: 0011-03-19
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Keziah Holt Adams, daughter of Joseph Adams and Deborah Marsh, attended Sarah Pierce's Litchfield Female Academy from 1823 - 1825. In 1828 she married Henry W. Rodgers. Henry worked as a lawyer in Buffalo, NY, and he and Keziah alter moved to Ann Arbor, MI, where she died."
+  citation_of_attendance: "Catalogue of The Litchfield Female Seminary For The Year Ending October, 1823 (ENV Chronicles Appendix D page 417); 1823 Litchfield Female Academy Summer Session Catalogue (ENV More Chronicles page 46);  1824 Litchfield Female Academy Summer Session Catal"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec37:
+  id: 38
+  name: "Lucy Joslin"
+  other_name: "Lucy Adam"
+  spouse_name: "Milston Joslin"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Canaan"
+  home_state: "CT"
+  spouse_home_town: "Southbridge"
+  spouse_home_state: "MA"
+  spouse_education: ""
+  spouse_occupation: ""
+  marriage_date: 0031-11-03
+  second_marriage_date: 
+  birthdate: 
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Lucy Adam, daughter of Leonard Adam and Arabella Cook, was born in Canaan, CT. In 1828 Lucy attended Sarah Pierce's Litchfield Female Academy, and her sister Jane Elizabeth Adam attended a few years later from 1831-1832. After completing her studies at the Female Academy Lucy married Milton Joslin of Southbridge, MA in 1831."
+  citation_of_attendance: "1828 Litchfield Female Academy Summer Session Catalogue (ENV Chronicles Appendix D page 428)"
+  image_id: 
+  secondary_sources: "
+"
+  additional_notes: ""
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+
+rec38:
+  id: 39
+  name: "Maria Davis Canfield Tallmadge"
+  other_name: "Maria Davis Canfield Adams"
+  spouse_name: "Henry Floyd Tallmadge"
+  gender: "F"
+  room_and_board: ""
+  home_town: "Litchfield"
+  home_state: "CT"
+  spouse_home_town: "Litchfield"
+  spouse_home_state: "CT"
+  spouse_education: ""
+  spouse_occupation: "Merchant; US Marshall for the Southern District of New York 1851"
+  marriage_date: 
+  second_marriage_date: 
+  birthdate: 1787-12-27
+  deathdate: 
+  other_education: 
+  admitted_to_bar: 
+  training_with_other_lawyers: 
+  federal_committees: 
+  state_committees: 
+  local_committees: 
+  biographical_notes: "Maria Davis Canfield Adams, sister of fellow Litchfield Female Academy student Cornelia Davis Adams, attended Sarah Pierce's Academy from 1801-1802. Her father, a Litchfield resident, Andrew Adams, Jr. served the community as a politician and tax collector. In 1810 Maria married Henry Floyd Tallmadege, they had five children."
+  citation_of_attendance: "She is mentioned as being a classmate in Lucy Sheldon's Diary 1801 (ENV Chronicles page 46); \"Beach, Lucy Sheldon (Mrs. Theron) 1803 Jan 28\" Journal (Litchfield Historical Society);   1802 Litchfield Female Academy Catalog (ENV Chronicles Appendix D) "
+  image_id: 
+  secondary_sources: "Genealogy of the Dayton-Tomlinson Branch of the Family
+
+
+"
+  additional_notes: "Laura Dayton Jessender (sp?) wrote a letter to ENV noting that her grandmother and great aunt attended the LFA - Cornelia Adams Tomlinson and Maria Adams Tallmadge (ENV Scrapbook)"
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+

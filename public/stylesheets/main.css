@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background: inherit;
+}
+
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:1.4em;
+	background:url(../images/background.jpg) top center repeat-y #000000;
+	position:absolute;
+	width:926px;
+	left:50%;
+	margin:30px 0px 50px -463px;
+	text-align: left;
+}
+
+a, a.link, a.visited {
+	text-decoration:none;
+}
+
+hr {
+	margin:8px 0px 8px 0px;	
+}
+
+input {
+	margin: 8px 8px 8px 0px;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.clear_both {
+	clear:both;
+}
+
+.clear_left {
+	clear:left;	
+}
+
+#main_container {
+	background:url(../images/ledger_page_repeat.jpg) top left repeat-y;
+	width:853px;
+	margin:0px 30px 0px 43px;
+}
+
+.last_hr {
+	clear: both;
+}
+
+#page_footer {
+	background:url(../images/page_footer.jpg) top left no-repeat;
+	width:853px;
+	height:30px;
+	text-align:center;
+	color:#FAF9C3;
+}
+
+#page_footer a {
+	color:#FAF9C3;
+	text-decoration:none;
+	font-size:0.9em;
+}
+
+#page_footer a:hover {
+	text-decoration: underline;
+}
+
+#paper_footer {
+	background:url(../images/paper_footer.gif) top left no-repeat;
+	width:853px;
+	height:52px;
+	margin:0px 30px 50px 43px;
+	text-align:center;
+	font-size:0.9em;
+	padding-top:5px;
+}
+
+#paper_footer div {
+	margin-bottom: -4px;
+}
+
+#paper_footer a {
+	color:#000000;
+}
+
+.caps_intro {
+	text-transform:uppercase;
+}
+
+div#preload { display: none; }
+
+.sidebar {
+	border-top: 4px solid #983537;
+	color: #131413;
+	float: right;
+	width: 200px;
+	margin-left:20px;
+	padding-top:10px;
+	text-align:center;
+	margin-bottom: 8px;
+	background: #e9dfc7 no-repeat bottom url(../images/sidebar_fade.jpg);
+}
+
+.sidebar.about {
+	height: 950px;
+}
+
+.sidebar.main {
+	height: 600px;
+}
+
+.sidebar.studies {
+    height: 900px;
+    text-align: left;
+}
+
+.sidebar.studies p.title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.sidebar.studies p {
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 4px;
+}
+
+.sidebar.studies .book {
+	font-style: italic;
+}
+
+.feature_item {
+	padding-top: 10px;
+}

@@ -1,0 +1,12 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# nav params: none %>
+<% if user_signed_in? %>
+		<div class="admin_banner">
+			<div class="user_name"><%= current_user.email %> &bull; <%= link_to "Settings", edit_user_registration_path %> &bull; <%= link_to "Sign out", sign_out_path %></div>
+			<%= link_to "Administration", { :controller => '/admin', :action => 'index' },{ :class => 'administration_title'} %>
+		</div>
+<% end %>

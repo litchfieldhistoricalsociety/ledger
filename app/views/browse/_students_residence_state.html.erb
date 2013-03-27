@@ -1,0 +1,24 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# students_residence_state: string school (LLS | LFA) %>
+<% label = school == 'LLS' ? "Law School Students" : (school == 'LFA' ? "Female Academy Students" : "Non-Students" ) %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }, { :label => label, :type => school }]) %> > by Residence</div>
+<div class="title">RESIDENCE</div>
+<% base_url = { :controller => 'browse', :action => 'index', :type => @type, :subtype => @subtype} %>
+<div class="browse_dates">
+<%= create_browse_submenu(@sub_menu, base_url, @selection) %>
+</div>
+<% if @sub_menu[@selection] != nil && @sub_menu[@selection].length > 1 %>
+<div class="browse_states">
+	<%= create_browse_submenu2(@sub_menu[@selection], base_url, @sub_selection, @selection) %>
+</div>
+<% end %>
+<% if @country_total %>
+<div class="total">Total <%= @selection %>: <%= @country_total %>, <%= @sub_selection %>: <%= @total %></div>
+<% else %>
+<div class="total">Total: <%= @total %></div>
+<% end %>
+<%= render :partial => 'three_column_list', :locals => { :list_item => @list, :action => { :controller => 'students', :action => 'show' }, :label_column => :id, :table_class => "category_browse_list" } %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  material1_id: 9.99
+  material2_id: 9.99
+  description1: MyString
+  description2: MyString
+
+two:
+  material1_id: 9.99
+  material2_id: 9.99
+  description1: MyString
+  description2: MyString

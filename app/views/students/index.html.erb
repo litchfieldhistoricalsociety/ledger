@@ -1,0 +1,59 @@
+<div class="title">QUERY</div>
+<%= form_tag({ :controller => 'students', :action => 'index' }, :method => "get") do %>
+<%= text_field_tag(:qq, @query_string, :class => 'results_search') %>
+<input id="search_btn" type="submit" value="" />
+<% end %>
+
+<% if @suggestions %>
+<div class="suggestions">Did you mean: <span><%= link_to(@suggestions, :controller => 'students', :action => 'index', :q => @suggestions) %></span></div>
+<% end %>
+<% if @error_msg %>
+<div class="search_error">Error: <span><%= @error_msg %></span></div>
+<% end %>
+<h2 class="page_subheader">Search Results (Total Found: <%= number_with_delimiter(@total_hits) %>)</h2>
+<input type="checkbox" id="show_only_students" <%= "checked=checked" if session[:search_only_students] == 'true' %>>Show only students at LFA or LLS</input>
+<%= render :partial => '/common/pagination', :locals => { :curr_page => @curr_page, :total_pages => @total_pages, :url => { :controller => 'students', :action => 'index', :qq => @query_string } } %>
+<table class="results">
+  <tr>
+    <th>Name</th>
+	  <th>Category</th>
+    <th>Attended</th>
+    <th>Attendance Dates</th>
+    <th>Profession(s)</th>
+    <th>Born</th>
+    <th>Died</th>
+<!--    <th></th>
+    <th></th>-->
+  </tr>
+
+<% @students.each do |student| %>
+  <tr>
+<% if student.kind_of?(Student) %>
+    <td><%= link_to student.name, student %></td>
+	<td><%= student.school && student.school.length > 0 ? "Student" : "Non-student" %></td>
+    <td><%= student.school %></td>
+    <td><%= student.years_attended %></td>
+    <td><%= list_professions(student.professions) %></td>
+    <td><%= VagueDate.factory(student.born).get_year() if student.born && student.born.length > 0 %></td>
+    <td><%= VagueDate.factory(student.died).get_year() if student.died && student.died.length > 0 %></td>
+<!--    <td><%= link_to 'Edit', edit_student_path(student) %></td>
+    <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>-->
+  </tr>
+<% else %>
+  <tr>
+    <td><%= link_to student.name, student %></td>
+	<td>Object</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+<!--    <td><%= link_to 'Edit', edit_student_path(student) %></td>
+    <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>-->
+<% end %>
+  </tr>
+<% end %>
+</table>
+<%= render :partial => '/common/pagination', :locals => { :curr_page => @curr_page, :total_pages => @total_pages, :url => { :controller => 'students', :action => 'index', :qq => @query_string } } %>
+<div class="clear_both"></div>
+<hr />

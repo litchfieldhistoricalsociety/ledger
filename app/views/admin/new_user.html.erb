@@ -1,0 +1,25 @@
+<div class="devise_outer">
+<h2>Create user</h2>
+
+<%= form_for(@resource, :as => @resource_name, :url => { :controller => 'admin', :action => 'create_user' }) do |f| %>
+  <%#= devise_error_messages! %>
+
+  <p><%= f.label :email %><br />
+  <%= f.text_field :email %></p>
+
+  <p><%= f.label :password %><br />
+  <%= f.password_field :password %></p>
+
+  <p><%= f.label :password_confirmation %><br />
+  <%= f.password_field :password_confirmation %></p>
+
+  <p><%= f.label :permissions %><br />
+  <%= f.select :permissions, [ 'Administrator', 'Full', 'Maintenance' ] %></p>
+  <div>Administrator: can create users and manage accounts</div>
+  <div>Full: can delete records</div>
+  <div>Maintenance: can and and edit records</div>
+  <p><%= f.submit "Create" %></p>
+<% end %>
+
+<%#= render :partial => "devise/shared/links" %>
+</div>

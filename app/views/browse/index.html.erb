@@ -1,0 +1,101 @@
+<h1 class="page_header">Browse the Ledger</h1>
+<% if @type == 'LFA' %>
+	<p>Browse students from either institution by name; dates of attendance; hometown or later residence; or profession.
+		Browse objects and documents by category, date of creation, or repository.
+	</p>
+<br /><p>
+	Not all Female Academy students were girls. A number of young boys also attended the school.
+	Most of the young women who attended did not go on to have a profession in its modern sense.
+	The “profession” section includes the few who did, as well as those who were active in social reform movements.
+</p>
+<br /><p>
+	<span class="explanatory_header">A note about names:</span> Many women who attended the Female Academy later married and changed their names one or more times.
+	It is standard practice to list individuals by the most recent name by which they were known. Therefore, the student browse page lists
+	Female Academy students by their last married name. If you are looking for a particular student and do not know her married name,
+	please use the search feature.
+</p>
+<% elsif @type == 'materials' && @subtype == 'category' %>
+	Browse objects or documents by category. The category “Collections of Papers” contains descriptions for entire collections of
+	family papers, business records, or organizational records. These collections may contain a variety of document types including
+	correspondence, receipts, journals, account books, notebooks, etc. so if you are searching for a particular type of document, be
+	sure to also browse the “Collections of Papers” category.
+<% elsif @type == 'materials' && @subtype == 'repository' %>
+	Litchfield Historical Society Collections can be found listed as “Litchfield Historical Society” or “Helga J. Ingraham Memorial Library,
+	Litchfield Historical Society.” They are listed as two separate repositories because library collections are housed
+	separately, and it helps staff know where requested items can be found.
+<% else %>
+	<p>Browse students from either institution by name; dates of attendance; hometown or later residence; or profession.
+		Browse objects and documents by category, date of creation, or repository.
+	</p>
+	<% if @type == nil %>
+	<br /><p>Each Law School or Female Academy student record contains links to records for that student’s parents and spouse. As a result, there are more non-student than student records.
+	</p>
+	<% end %>
+<% end %>
+<hr />
+<% if @type == nil %>
+<%= render :partial => 'main' %>
+<% elsif @type == 'LLS' || @type == 'LFA' || @type == 'non' %>
+<% if @subtype == nil %>
+<%= render :partial => 'students', :locals => { :school => @type } %>
+<% elsif @subtype == 'name' %>
+<%= render :partial => 'students_name', :locals => { :school => @type } %>
+<% elsif @subtype == 'dates' %>
+<%= render :partial => 'students_dates', :locals => { :school => @type } %>
+<% elsif @subtype == 'hometown' %>
+<%= render :partial => 'students_home_state', :locals => { :school => @type } %>
+<% elsif @subtype == 'residences' %>
+<%# if @selection == nil %>
+<%= render :partial => 'students_residence_state', :locals => { :school => @type } %>
+<%# else %>
+<%#= render :partial => 'students_residence_list', :locals => { :school => @type, :town => @selection } %>
+<%# end %>
+<% elsif @subtype == 'profession' %>
+<% if @selection == nil %>
+<%= render :partial => 'students_profession', :locals => { :school => @type, :title => @subtype } %>
+<% else %>
+<%= render :partial => 'students_profession_list', :locals => { :school => @type, :profession => @selection, :title => @subtype } %>
+<% end %>
+<% elsif @subtype == 'political_party' %>
+<% if @selection == nil %>
+<%= render :partial => 'students_profession', :locals => { :school => @type, :title => @subtype } %>
+<% else %>
+<%= render :partial => 'students_profession_list', :locals => { :school => @type, :profession => @selection, :title => @subtype } %>
+<% end %>
+	<% elsif @subtype == 'other_education' %>
+	<% if @selection == nil %>
+	<%= render :partial => 'students_profession', :locals => { :school => @type, :title => @subtype } %>
+	<% else %>
+	<%= render :partial => 'students_profession_list', :locals => { :school => @type, :profession => @selection, :title => @subtype } %>
+	<% end %>
+	<% elsif @subtype == 'political_office' %>
+	<% if @selection == nil %>
+	<%= render :partial => 'students_profession', :locals => { :school => @type, :title => @subtype } %>
+	<% else %>
+	<%= render :partial => 'students_profession_list', :locals => { :school => @type, :profession => @selection, :title => @subtype } %>
+	<% end %>
+<% end %>
+
+<% elsif @type == 'marriages' %>
+	<%= render :partial => 'marriages', :locals => { :list => @list, :total => @total } %>
+
+<% elsif @type == 'materials' %>
+<% if @subtype == nil %>
+<%= render :partial => 'materials' %>
+<% elsif @subtype == 'category' %>
+<% if @selection == nil %>
+<%= render :partial => 'materials_category' %>
+<% else %>
+<%= render :partial => 'materials_category_list' %>
+<% end %>
+<% elsif @subtype == 'dates' %>
+<%= render :partial => 'materials_dates' %>
+<% elsif @subtype == 'repository' %>
+<% if @selection == nil %>
+<%= render :partial => 'materials_location' %>
+<% else %>
+<%= render :partial => 'materials_location_list' %>
+<% end %>
+<% end %>
+<% end %>
+<hr />

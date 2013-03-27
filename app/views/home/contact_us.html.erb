@@ -1,0 +1,21 @@
+<div class="contact_us">
+	<div class="student_data"><div class="student_name">Contact Us</div>
+		<hr />
+		<div>
+Do you have more information for the Ledger?
+If you have family papers, objects, or any other details you would like to share,
+please contact us by filling in as much information as you'd like below.
+If you want us to contact you, be sure to provide a valid email address.
+		</div>
+	</div>
+	<form action="<%= url_for({ :controller => 'home', :action => 'mail' }) %>" method=POST>
+		<div class="student_label">Name:</div>
+		<div class="student_data"><input id='mail_name' name='mail[name]'/></div>
+		<div class="student_label">Email:</div>
+		<div class="student_data"><input id='mail_email' name='mail[email]'/></div>
+		<div class="student_label">Description:</div>
+		<div class="student_data"><textarea id='mail_description' name='mail[description]'></textarea></div>
+		<input type="hidden" id='mail_referrer' name="mail[referrer]" value="<%= @referrer %>" />
+		<div class="student_data"><input type='submit' value='Send' /></div>
+	</form>
+</div>

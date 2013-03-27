@@ -1,0 +1,345 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  town: "Calais and Belfast"
+  state: " ME"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  town: " Colummbus"
+  state: " MS"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec2:
+  id: 3
+  town: "New York City"
+  state: "NY"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec3:
+  id: 4
+  town: "Statesburg"
+  state: "SC"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec4:
+  id: 5
+  town: "Litchfield"
+  state: " CT"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec5:
+  id: 6
+  town: " Geneva"
+  state: " NY"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec6:
+  id: 7
+  town: " Carmel"
+  state: " NY"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec7:
+  id: 8
+  town: "Watertown"
+  state: " NY"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec8:
+  id: 9
+  town: " Lyme"
+  state: " NH"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec9:
+  id: 10
+  town: " Cumberland County"
+  state: " VA"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec10:
+  id: 11
+  town: " Mobile"
+  state: "  AL"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec11:
+  id: 12
+  town: " Washington"
+  state: " D.C."
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec12:
+  id: 13
+  town: " Baltimore"
+  state: " MD "
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec13:
+  id: 14
+  town: "Norwich"
+  state: " CT"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec14:
+  id: 15
+  town: " Cass County"
+  state: " MI"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec15:
+  id: 16
+  town: " Harrsiburgh"
+  state: " PA"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec16:
+  id: 17
+  town: "Boston"
+  state: " MA"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec17:
+  id: 18
+  town: " New Bedford"
+  state: " MA"
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec18:
+  id: 19
+  town: "Wrights"
+  state: "CA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec19:
+  id: 20
+  town: "Windham Co."
+  state: " CT"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec20:
+  id: 21
+  town: "  Chelmsford"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec21:
+  id: 22
+  town: " Fitchburg"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec22:
+  id: 23
+  town: " Cambridge"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec23:
+  id: 24
+  town: "Wenham"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec24:
+  id: 25
+  town: " Boston"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec25:
+  id: 26
+  town: " Fall River"
+  state: " MA"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec26:
+  id: 27
+  town: "Huntsville"
+  state: " AL"
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec27:
+  id: 28
+  town: " Castine"
+  state: " ME"
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec28:
+  id: 29
+  town: "  Belfast"
+  state: " ME"
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec29:
+  id: 30
+  town: "Unknown"
+  state: "GA"
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec30:
+  id: 31
+  town: "Germantown"
+  state: " PA"
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec31:
+  id: 32
+  town: "Norfolk"
+  state: "VA"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec32:
+  id: 33
+  town: "Abbeville District"
+  state: " SC"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec33:
+  id: 34
+  town: " Linden"
+  state: " AL"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec34:
+  id: 35
+  town: "Clarke County"
+  state: "AL"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec35:
+  id: 36
+  town: "Providence"
+  state: "RI"
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec36:
+  id: 37
+  town: "Washington County"
+  state: "MD"
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec37:
+  id: 38
+  town: "Richmond"
+  state: " VA"
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec38:
+  id: 39
+  town: " Lebanon"
+  state: " TN"
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec39:
+  id: 40
+  town: " Henry Co."
+  state: " Iowa"
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec40:
+  id: 41
+  town: "Whitestown"
+  state: "NY"
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec41:
+  id: 42
+  town: "Watertown"
+  state: " CT"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec42:
+  id: 43
+  town: " New Haven"
+  state: " CT"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec43:
+  id: 44
+  town: " Colebrook"
+  state: " CT"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec44:
+  id: 45
+  town: " New York"
+  state: " NY"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec45:
+  id: 46
+  town: "Baton Rouge"
+  state: " LA"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec46:
+  id: 47
+  town: "Bath"
+  state: "NY"
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec47:
+  id: 48
+  town: "Rhinebeck"
+  state: " NY"
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec48:
+  id: 49
+  town: "Ann Arbor"
+  state: "MI"
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+

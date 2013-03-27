@@ -1,0 +1,44 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  title: "Lawyer"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  title: "Editor"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec2:
+  id: 3
+  title: "Political Office"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec3:
+  id: 4
+  title: "Business"
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec4:
+  id: 5
+  title: "Educator"
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec5:
+  id: 6
+  title: "Minister"
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec6:
+  id: 7
+  title: "Farmer"
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+

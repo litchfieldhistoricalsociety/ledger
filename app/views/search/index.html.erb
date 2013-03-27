@@ -1,0 +1,51 @@
+<h1 class="page_header">Advanced Search</h1>
+<hr />
+<%= form_tag({ :controller => 'search', :action => 'advanced' }, :method=>'get') do %>
+	<div class="advanced_search_label">Search:</div>
+	<div class="advanced_search_input">
+	<input id="advanced_search_students" type="radio" name="type" value="students" checked="checked" style="margin-top:11px;margin-bottom:0;">People</input><br />
+	<input id="advanced_search_materials" type="radio" name="type" value="materials">Objects and Documents</input>
+	</div>
+	<hr class="clear_both" />
+	<div class="advanced_search_label">Keywords:<br /><div class="subtle">(Will search all fields)</div></div>
+	<div class="advanced_search_input">
+	<input type="input" name="keywords"></input>
+	</div>
+	<hr class="clear_both" />
+	<div class="advanced_search_label students">Name:</div>
+	<div class="advanced_search_input students">
+	<input type="input" name="students[name]"></input>
+	</div>
+	<%= render :partial => 'date_input', :locals => { :label => 'Year Born', :id => 'born', :style => 'students', :section => 'students' } %>
+	<%= render :partial => 'date_input', :locals => { :label => 'Year Died', :id => 'died', :style => 'students', :section => 'students' } %>
+	<div class="advanced_search_label students">Attended:</div>
+	<div class="advanced_search_input students">
+	<input type="checkbox" name="students[LLS]">Litchfield Law School</input><br />
+	<input type="checkbox" name="students[LFA]" style="margin-top:0;">Litchfield Female Academy</input>
+	</div>
+	<%= render :partial => 'date_input', :locals => { :label => 'Years of Attendance', :id => 'year_attended', :style => 'students', :section => 'students' } %>
+	<div class="advanced_search_label students">Profession:</div>
+	<div class="advanced_search_input students">
+	<input type="input" name="students[profession]"></input>
+	</div>
+	<div class="advanced_search_label students">Other Education:</div>
+	<div class="advanced_search_input students">
+	<input type="input" name="students[other_education]"></input>
+	</div>
+	<div class="advanced_search_label materials hidden">Category:</div>
+	<div class="advanced_search_input materials hidden">
+	<input type="input" name="materials[category]"></input>
+	</div>
+	<%= render :partial => 'date_input', :locals => { :label => 'Date', :id => 'date', :style => 'materials hidden', :section => 'materials' } %>
+	<div class="advanced_search_label materials hidden">Repository:</div>
+	<div class="advanced_search_input materials hidden">
+	<input type="input" name="materials[repository]"></input>
+	</div>
+	<hr class="clear_both" />
+	<div class="advanced_search_input">
+	<%= create_submit_button("Search", 'search_btn') %>
+	<%= create_input_button("Clear", 'clear_btn') %>
+	</div>
+<% end %>
+<div class="clear_both"></div>
+<hr />

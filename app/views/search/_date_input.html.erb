@@ -1,0 +1,18 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# date_input: string label, string id, string style, string section %>
+<div class="advanced_search_label <%= style %>"><%= label %>:</div>
+<div class="advanced_search_date <%= style %>">
+	<select id="<%= id %>" name="<%= section %>[<%= id %>_type]" class="date_controller">
+		<option>Exactly</option>
+		<option>Before</option>
+		<option>After</option>
+		<option>Between</option>
+	</select>
+<input type="input" name="<%= section %>[<%= id %>_first]"></input>
+<span id="between_date_<%= id %>" class="hidden">and
+<input type="input" name="<%= section %>[<%= id %>_second]"></input></span>
+</div>

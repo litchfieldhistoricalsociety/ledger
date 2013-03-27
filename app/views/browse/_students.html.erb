@@ -1,0 +1,19 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# students: string school (LLS | LFA) %>
+<% label = school == 'LLS' ? "Law School Students" : (school == 'LFA' ? "Female Academy Students" : "Non-Students" ) %>
+<div class="title"><%= breadcrumb([ { :label => 'Browse', :type => nil }]) %> > <%= label %></div>
+<div class="title"><%= label.upcase() %></div>
+<%= my_link_to "By Name", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'name' } %><br />
+<% if label != "Non-Students" %>
+<%= my_link_to "By Attendance Dates", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'dates' } %><br />
+<% end %>
+<%= my_link_to "By Hometown", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'hometown' } %><br />
+<%= my_link_to "By Later Residences", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'residences' } %><br />
+<%= my_link_to "By Profession", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'profession' } %><br />
+<%= my_link_to "By Political Party", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'political_party' } %><br />
+<%= my_link_to "By Political Office", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'political_office' } %><br />
+<%# = my_link_to "By Other Education", { :controller => 'browse', :action => 'index', :type => school, :subtype => 'other_education' } %>

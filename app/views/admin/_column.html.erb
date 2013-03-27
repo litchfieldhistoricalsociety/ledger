@@ -1,0 +1,31 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# column: params: string header_img, string button_img, string new_path, string obj_controller, ActiveRecord array revised %>
+<style type="text/css">
+	.admin_column h2.<%= obj_controller %> { background:url(images/<%= header_img %>) top left no-repeat; }
+	.admin_column_button.<%= obj_controller %> { background:url(images/<%= button_img %>) top left no-repeat; }
+</style>
+
+<div class="admin_column">
+	<h2 class="<%= obj_controller %>"></h2>
+	<div class="admin_column_top">
+	<%= link_to "", new_path, { :class => "admin_column_button #{obj_controller}" } %>
+	</div>
+	<div class="admin_revised">
+		<h3>Recently Revised ...</h3>
+<% if revised && revised.length %>
+		<ul class="revised">
+<% for rec in revised %>
+			<li><%= sday_format(rec.updated_at) %> <%= link_to rec.name, { :controller => obj_controller, :action => 'show', :id => rec.id } %></li>
+<% end %>
+		</ul>
+<% else %>
+		(No revised items)
+<% end %>
+		<br /><br />
+		<div><%= link_to "Export Data", :controller => obj_controller, :action => 'export_data' %></div>
+	</div>
+</div>

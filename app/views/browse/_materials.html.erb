@@ -1,0 +1,11 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+%>
+<%# materials: no params %>
+<div class="title"><%=  breadcrumb([ { :label => 'Browse', :type => nil }]) %> Materials</div>
+<div class="title">MATERIALS</div>
+<%= my_link_to "By Category", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'category' } %><br />
+<%= my_link_to "By Date", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'dates' } %><br />
+<%= my_link_to "By Repository", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'repository' } %>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#lvl2_header {
+	height:120px;
+}
+
+#content_container {
+	margin:0px 30px 20px 37px;
+	height:auto !important;
+	height:500px;
+}
+.exhibit_left, .exhibit_right {
+	display:inline;
+}
+
+#index_right_col {
+	margin-top:0px;
+}

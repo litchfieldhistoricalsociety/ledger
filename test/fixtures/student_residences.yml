@@ -1,0 +1,373 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+rec0:
+  id: 1
+  student_id: 1
+  residence_id: 1
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec1:
+  id: 2
+  student_id: 1
+  residence_id: 2
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec2:
+  id: 3
+  student_id: 2
+  residence_id: 3
+  created_at: Mon May 03 18:05:36 UTC 2010
+  updated_at: Mon May 03 18:05:36 UTC 2010
+
+rec3:
+  id: 5
+  student_id: 4
+  residence_id: 5
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec4:
+  id: 6
+  student_id: 4
+  residence_id: 6
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec5:
+  id: 7
+  student_id: 4
+  residence_id: 7
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec6:
+  id: 8
+  student_id: 5
+  residence_id: 8
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec7:
+  id: 9
+  student_id: 5
+  residence_id: 9
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec8:
+  id: 10
+  student_id: 5
+  residence_id: 10
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec9:
+  id: 11
+  student_id: 5
+  residence_id: 11
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec10:
+  id: 12
+  student_id: 5
+  residence_id: 12
+  created_at: Mon May 03 18:05:37 UTC 2010
+  updated_at: Mon May 03 18:05:37 UTC 2010
+
+rec11:
+  id: 13
+  student_id: 5
+  residence_id: 13
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec12:
+  id: 14
+  student_id: 6
+  residence_id: 14
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec13:
+  id: 15
+  student_id: 6
+  residence_id: 15
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec14:
+  id: 16
+  student_id: 6
+  residence_id: 16
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec15:
+  id: 17
+  student_id: 7
+  residence_id: 17
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec16:
+  id: 18
+  student_id: 7
+  residence_id: 18
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec17:
+  id: 19
+  student_id: 7
+  residence_id: 12
+  created_at: Mon May 03 18:05:38 UTC 2010
+  updated_at: Mon May 03 18:05:38 UTC 2010
+
+rec18:
+  id: 20
+  student_id: 9
+  residence_id: 19
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec19:
+  id: 21
+  student_id: 10
+  residence_id: 20
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec20:
+  id: 22
+  student_id: 10
+  residence_id: 21
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec21:
+  id: 23
+  student_id: 10
+  residence_id: 22
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec22:
+  id: 24
+  student_id: 10
+  residence_id: 23
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec23:
+  id: 25
+  student_id: 11
+  residence_id: 24
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec24:
+  id: 26
+  student_id: 11
+  residence_id: 25
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec25:
+  id: 27
+  student_id: 11
+  residence_id: 26
+  created_at: Mon May 03 18:05:39 UTC 2010
+  updated_at: Mon May 03 18:05:39 UTC 2010
+
+rec26:
+  id: 28
+  student_id: 12
+  residence_id: 27
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec27:
+  id: 29
+  student_id: 12
+  residence_id: 28
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec28:
+  id: 30
+  student_id: 12
+  residence_id: 29
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec29:
+  id: 31
+  student_id: 13
+  residence_id: 30
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec30:
+  id: 32
+  student_id: 14
+  residence_id: 31
+  created_at: Mon May 03 18:05:40 UTC 2010
+  updated_at: Mon May 03 18:05:40 UTC 2010
+
+rec31:
+  id: 33
+  student_id: 16
+  residence_id: 32
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec32:
+  id: 34
+  student_id: 17
+  residence_id: 33
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec33:
+  id: 35
+  student_id: 17
+  residence_id: 34
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec34:
+  id: 36
+  student_id: 18
+  residence_id: 35
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec35:
+  id: 37
+  student_id: 19
+  residence_id: 36
+  created_at: Mon May 03 18:05:41 UTC 2010
+  updated_at: Mon May 03 18:05:41 UTC 2010
+
+rec36:
+  id: 38
+  student_id: 20
+  residence_id: 37
+  created_at: Mon May 03 18:05:42 UTC 2010
+  updated_at: Mon May 03 18:05:42 UTC 2010
+
+rec37:
+  id: 39
+  student_id: 21
+  residence_id: 38
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec38:
+  id: 40
+  student_id: 21
+  residence_id: 39
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec39:
+  id: 41
+  student_id: 21
+  residence_id: 40
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec40:
+  id: 42
+  student_id: 22
+  residence_id: 38
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec41:
+  id: 43
+  student_id: 22
+  residence_id: 39
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec42:
+  id: 44
+  student_id: 23
+  residence_id: 41
+  created_at: Mon May 03 18:05:44 UTC 2010
+  updated_at: Mon May 03 18:05:44 UTC 2010
+
+rec43:
+  id: 45
+  student_id: 24
+  residence_id: 42
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec44:
+  id: 46
+  student_id: 24
+  residence_id: 43
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec45:
+  id: 47
+  student_id: 24
+  residence_id: 44
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec46:
+  id: 48
+  student_id: 24
+  residence_id: 45
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec47:
+  id: 49
+  student_id: 27
+  residence_id: 46
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec48:
+  id: 50
+  student_id: 28
+  residence_id: 47
+  created_at: Mon May 03 18:05:45 UTC 2010
+  updated_at: Mon May 03 18:05:45 UTC 2010
+
+rec49:
+  id: 51
+  student_id: 30
+  residence_id: 48
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec50:
+  id: 52
+  student_id: 30
+  residence_id: 45
+  created_at: Mon May 03 18:05:46 UTC 2010
+  updated_at: Mon May 03 18:05:46 UTC 2010
+
+rec51:
+  id: 53
+  student_id: 37
+  residence_id: 49
+  created_at: Mon May 03 18:05:47 UTC 2010
+  updated_at: Mon May 03 18:05:47 UTC 2010
+
+rec52:
+  id: 54
+  student_id: 39
+  residence_id: 3
+  created_at: Mon May 03 18:05:48 UTC 2010
+  updated_at: Mon May 03 18:05:48 UTC 2010
+

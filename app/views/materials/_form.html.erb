@@ -1,0 +1,88 @@
+<%#
+# ------------------------------------------------------------------------
+#     Copyright 2010 Litchfield Historical Society
+# ----------------------------------------------------------------------------
+# MATERIALS
+%>
+<%# form: params: bool is_editing %>
+<% if params[:iterate] %>
+<div style="position: absolute;top:220px;">
+<%= link_to "Next", :controller => 'materials', :action => 'show', :id => @material.id, :iterate => 'next' %></div>
+<% end %>
+<% if user_signed_in? && !is_editing %>
+<div class="edit_button">
+	<%= create_button("Delete", { :controller => 'materials', :action => 'destroy', :id => @material.id }, 'delete_btn fxn_confirm', { 'data-confirm' => 'Are you sure you want to delete this object?', 'data-method' => 'delete' })  if full_signed_in? %>
+	<%= create_button("Edit", edit_material_path(@material), 'edit_btn') %>
+</div>
+<% end %>
+<div class="student_data_div">
+	<p class="student_name"><%= name_row(@material.original_name, is_editing, "Object") %></p>
+</div>
+<%= custom_error_messages_helper(@material) %>
+<% if !is_editing %>
+<hr />
+<% if user_signed_in? && !is_editing %>
+<div>
+	<%= create_button("Add Image", { :controller => 'materials', :action => 'add_image', :id => @material.id }, 'add_image_btn fxn_add_image')  if full_signed_in? %>
+</div>
+<% end %>
+<%= images_rows(@material.images, is_editing, user_signed_in?) %>
+<hr />
+<% end %>
+<div class="student_data_div">
+	<%= edit_collection(is_editing) %>
+	<%= name_row_edit(@material.original_name, is_editing, "material") %>
+	<%= student_row("Object ID:", @material.object_id, is_editing, "material", :object_id, :input) %>
+	<%= student_row("Accession #:", @material.accession_num, is_editing, "material", :accession_num, :input) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<% cats = @material.name.blank? ? " " : list_professions(@material.categories) %>
+	<%= student_row("Category:", cats, is_editing, "material", :category, :multiple_select, @categories) %>
+	<%= edit_collection_end(is_editing) %>
+	<%= edit_collection(is_editing) %>
+	<%= student_row("Medium:", @material.medium, is_editing, "material", :medium, :input) %>
+	<%= student_row("Creator:", @material.author, is_editing, "material", :author, :input) %>
+	<%= student_row("Date:", @material.material_date, is_editing, "material", :material_date, :date) %>
+	<%= student_row("Collection:", @material.collection, is_editing, "material", :collection, :input) %>
+	<%= student_row("Held at:", @material.held_at, is_editing, "material", :held_at, :input) %>
+	<%= student_row("Associated Place:", @material.associated_place, is_editing, "material", :associated_place, :input) %>
+	<%= student_row("Size:", @material.size, is_editing, "material", :size, :input) %>
+	<%= student_row("Description:", @material.description, is_editing, "material", :description, :string) %>
+	<%= student_row("Private Notes:", @material.private_notes, is_editing, "material", :private_notes, :string) if user_signed_in? %>
+	<%= student_row("", @material.url ? @material.url : "", is_editing, "material", :url, :url, 'View online finding aid') %>
+	<%= edit_collection_end(is_editing) %>
+<% if user_signed_in? && !is_editing %>
+<div>
+	<%= create_button("Add Transcription", { :controller => 'materials', :action => 'add_transcription', :id => @material.id }, 'add_transcription_btn fxn_add_transcription')  if full_signed_in? %>
+</div>
+<% end %>
+	<%= edit_collection(is_editing) %>
+	<%= transcriptions_rows(@material.transcriptions, is_editing, user_signed_in?) %>
+	<%= edit_collection_end(is_editing) %>
+</div>
+
+<% if is_editing %>
+<%= edit_collection(is_editing) %>
+<%= images_rows(@material.images, is_editing, user_signed_in?) %>
+<%= edit_collection_end(is_editing) %>
+<% else %>
+<hr class="clear_left" />
+<% end %>
+<% if is_editing || @students.length > 0 %>
+<div class="student_data_div">
+	<div class="student_data_header">Associated People</div>
+	<%= edit_collection(is_editing) %>
+	<%= people_rows(@students, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+</div>
+<hr class="clear_left" />
+<% end %>
+<% if is_editing || @materials.length > 0 %>
+<div class="student_data_div">
+	<div class="student_data_header">Associated Objects</div>
+	<%= edit_collection(is_editing) %>
+	<%= assoc_objects_rows(@materials, is_editing) %>
+	<%= edit_collection_end(is_editing) %>
+</div>
+<hr class="clear_left" />
+<% end %>
