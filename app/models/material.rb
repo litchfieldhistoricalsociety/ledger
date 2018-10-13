@@ -20,7 +20,7 @@ class Material < ActiveRecord::Base
 	end
 
 	def legal_viewing_aid?
-		errors.add(:viewing_aid, "Online viewing aid field must be a url starting with http://") if url && url.length > 0 && url.index('http://') != 0
+		errors.add(:viewing_aid, "Online viewing aid field must be a url starting with https://") if url && url.length > 0 && url.index('https://') != 0
 	end
 
 	def legal_date?
