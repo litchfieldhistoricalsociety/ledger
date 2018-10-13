@@ -45,4 +45,8 @@ Litchfield::Application.configure do
   config.i18n.fallbacks = true
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  # Paperclip is not finding the correct path for ImageMagick binaries
+  # Set the path for ImageMagick here
+  Paperclip.options[:command_path] = "/usr/bin"
 end
