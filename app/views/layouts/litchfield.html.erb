@@ -3,8 +3,7 @@
 <head>
 	<% @page_title = 'Administration' if @page_title == nil || @page_title.length == 0 %>
   <title>Litchfield Ledger - <%= @page_title %></title>
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.3.0/build/cssreset/reset-min.css&3.3.0/build/cssfonts/fonts-min.css&3.3.0/build/cssgrids/grids-min.css"></link>
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/gallery-2010.10.13-20-59/build/gallery-carousel/assets/skins/sam/gallery-carousel.css"></link>
+	<%= stylesheet_link_tag 'yui/yui-combo', 'yui/yui-carousel.css' %>
 	<%= stylesheet_link_tag 'main', 'lvl2', 'litchfield', 'lightbox', 'textarea_grow', 'auto_complete' %>
 <!--[if IE 7]>
 <%= stylesheet_link_tag "ie7hacks.css" %>
@@ -12,11 +11,9 @@
 <!--[if IE 6]>
 <%= stylesheet_link_tag "ie6hacks.css" %>
 <![endif]-->
-<script type="text/javascript" charset="utf-8"
-        src="http://yui.yahooapis.com/3.3.0/build/yui/yui-min.js">
-</script>
+	<%= javascript_include_tag 'yui/yuimin' %>
 <!-- Load the YUI Loader script: -->
-<script type="text/javascript" src="http://yui.yahooapis.com/2.8.2r1/build/yuiloader/yuiloader-min.js"></script>
+	<%= javascript_include_tag 'yui/yuiloader-min' %>
 <script type="text/javascript">
 <% if request.host().index('localhost') == nil -%>
 	var baseUrl = "/ledger";
