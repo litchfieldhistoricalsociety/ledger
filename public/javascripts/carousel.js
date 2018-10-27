@@ -18,7 +18,7 @@ var loader = new YAHOO.util.YUILoader({
 
     // The function to call when all script/css resources have been loaded
     onSuccess: function() {
-		YUI().use('node', function(Y) {
+		YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 
 			var el = Y.one("#carousel");
 			if (el === null)

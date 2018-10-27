@@ -15,7 +15,7 @@ function createForm(action, params) {
 		hiddenField.setAttribute("value", params.method);
 		form.appendChild(hiddenField);
 	}
-	YUI().use('node', function(Y) {
+	YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 		var csrf_param = Y.one('meta[name=csrf-param]')._node.content;
 		var csrf_token = Y.one('meta[name=csrf-token]')._node.content;
 		var hiddenField = document.createElement("input");

@@ -45,7 +45,7 @@ function add_autocomplete_to_node(Y, node, type) {
 //	autoComp.get('boundingBox').addClass('msa-menu').addClass('yui3-widget-bd');
 }
 
-YUI().use('node', 'autocomplete', "autocomplete-highlighters", "datasource-get", function (Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function (Y) {
 	var attachToNode = function(node, type) {
 		add_autocomplete_to_node(Y, node, type);
 	};

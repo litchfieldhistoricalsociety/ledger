@@ -19,7 +19,7 @@
 
 /*global YUI, document */
 /*global createForm */
-YUI().use("overlay", 'node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 
 	function ask(event) {
 		// We still need to stop the event or the original click will also get submitted.

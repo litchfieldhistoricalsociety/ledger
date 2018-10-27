@@ -1,5 +1,5 @@
 /*global YUI */
-YUI().use('node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 
 	function expand(node) {
 		var text = node.previous('.start_hidden');

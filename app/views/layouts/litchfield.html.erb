@@ -3,7 +3,10 @@
 <head>
 	<% @page_title = 'Administration' if @page_title == nil || @page_title.length == 0 %>
   <title>Litchfield Ledger - <%= @page_title %></title>
-	<%= stylesheet_link_tag 'yui/yui-combo', 'yui/yui-carousel.css' %>
+	<%= stylesheet_link_tag 'yui/3.3.0/build/cssreset/reset-min',
+		'yui/gallery-2010.10.13-20-59/build/gallery-carousel/assets/skins/sam/gallery-carousel',
+		'yui/3.3.0/build/widget/assets/skins/sam/widget'
+	%>
 	<%= stylesheet_link_tag 'main', 'lvl2', 'litchfield', 'lightbox', 'textarea_grow', 'auto_complete' %>
 <!--[if IE 7]>
 <%= stylesheet_link_tag "ie7hacks.css" %>
@@ -11,9 +14,8 @@
 <!--[if IE 6]>
 <%= stylesheet_link_tag "ie6hacks.css" %>
 <![endif]-->
-	<%= javascript_include_tag 'yui/yuimin' %>
 <!-- Load the YUI Loader script: -->
-	<%= javascript_include_tag 'yui/yuiloader-min' %>
+	<%= javascript_include_tag 'yui/3.3.0/build/yui/yui-min', 'yui/2.8.2r1/build/yuiloader/yuiloader-min' %>
 <script type="text/javascript">
 <% if request.host().index('localhost') == nil -%>
 	var baseUrl = "/ledger";
@@ -72,4 +74,3 @@
 	<div>For permissions contact: <a href="litchfieldhistoricalsociety org director" class="no_spam">$</a></div></div>
 </body>
 </html>
- 

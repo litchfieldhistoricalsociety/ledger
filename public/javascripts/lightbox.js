@@ -1,5 +1,5 @@
 /*global YUI */
-YUI().use("overlay", 'node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 
     /* Create a new Overlay instance, with content generated from script */
     var overlay = null;
@@ -9,7 +9,7 @@ YUI().use("overlay", 'node', function(Y) {
 			visible:false,
 			zIndex:10,
 			headerContent: "<button id='lightbox_hide'>Close</button>",
-			bodyContent: "<img id='overlay_img' src='../images/ajax_loader.gif' alt='detailed image'>"
+			bodyContent: "<img id='overlay_img' src='../images/ajax-loader.gif' alt='detailed image'>"
 		});
 
 		overlay.render();

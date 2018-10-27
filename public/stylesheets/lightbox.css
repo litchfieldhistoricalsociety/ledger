@@ -28,7 +28,7 @@
 }
 
 .yui3-widget-loading .yui3-widget-bd {
-	background: #fff url(http://developer.yahoo.com/yui/3/examples/overlay/assets/img/ajax-loader.gif) no-repeat center center;
+	background: #fff url(/ledger/images/yui3.3.0/ajax-loader.gif) no-repeat center center;
 	height:40px;
 }
 

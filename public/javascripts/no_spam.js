@@ -1,6 +1,6 @@
 // Just create the email like this: <a href='domain com name' class='no_spam' />
 // If the innerHTML is $, then replace that with the address, too.
-YUI().use('node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 	Y.later(500, this, function() {
 		var emails = Y.all('.no_spam');
 		emails.each(function(email) {

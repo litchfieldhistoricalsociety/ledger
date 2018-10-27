@@ -2,7 +2,7 @@
 // This changes a textarea into one that will auto size as the user types.
 // To use, just load this file, and mark all desired textareas with the class "TextAreaGrow".
 // There should be a <div> as the direct ancestor of the the textarea.
-YUI().use('node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 	function autoSize(el) {
 		// Copy textarea contents; browser will calculate correct height of copy,
 		// which will make overall container taller, which will make textarea taller.

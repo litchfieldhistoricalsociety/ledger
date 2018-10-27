@@ -22,7 +22,7 @@
 //
 
 /*global YUI */
-YUI().use('node', function(Y) {
+YUI().use('overlay', 'node', 'io-base', 'json-parse', 'autocomplete', "autocomplete-highlighters", "datasource-get", function(Y) {
 	function toggleTree() {
 		var el = this._node;
 		var el_id = el.id;
