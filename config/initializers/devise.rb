@@ -3,11 +3,11 @@
 Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in DeviseMailer.
-	config_file = File.join(Rails.root, "config", "site.yml")
-	if File.exists?(config_file)
-		site_specific = YAML.load_file(config_file)
-		config.mailer_sender = site_specific['exception_notifier']['sender_address']
-	end
+	#config_file = File.join(Rails.root, "config", "site.yml")
+	#if File.exists?(config_file)
+	#	site_specific = YAML.load_file(config_file)
+	#	config.mailer_sender = site_specific['exception_notifier']['sender_address']
+	#end
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
