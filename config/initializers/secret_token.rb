@@ -2,6 +2,6 @@
 
 # Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
-# Make sure the secret is at least 30 characters and all random, 
+# Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Litchfield::Application.config.secret_token = '9aa34d4d12afe9e2a2a77a3b30e85cae4cb889617c31e8cef8ddce1889ca169aec3a859b4f960cb073ef4270c2b2954e897e06eff40b997b53664ed1953e50c3'
+Litchfield::Application.config.secret_token = 'f7ef8b385bb014e9225d79a8398f542d48e480bcf027dfd17afd9151a92e9edb6f87132de06e750c816c62c88b79cabcfa80bc1a11d926e183c5ac8a24a8058f'

@@ -30,4 +30,10 @@ Litchfield::Application.configure do
   # config.active_record.schema_format = :sql
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+
+  # Added for rails 3.0.5 -> 3.1.2 migration
+  # Configure static asset server for tests with Cache-Control for performance
+  config.serve_static_assets = true
+  config.static_cache_control = "public, max-age=3600"
 end

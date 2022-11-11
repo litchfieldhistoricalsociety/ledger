@@ -1,79 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <% @page_title = 'Administration' if @page_title == nil || @page_title.length == 0 %>
-  <title>Litchfield Ledger - <%= @page_title %></title>
-  <%= favicon_link_tag 'favicon.ico' %>
-        <%= stylesheet_link_tag 'yui/3.3.0/build/cssreset/reset-min',
-                'yui/gallery-2010.10.13-20-59/build/gallery-carousel/assets/skins/sam/gallery-carousel',
-                'yui/3.3.0/build/widget/assets/skins/sam/widget'
-        %>
-        <%= stylesheet_link_tag 'main', 'lvl2', 'litchfield', 'lightbox', 'textarea_grow', 'auto_complete' %>
-<!--[if IE 7]>
-<%= stylesheet_link_tag "ie7hacks.css" %>
-<![endif]-->
-<!--[if IE 6]>
-<%= stylesheet_link_tag "ie6hacks.css" %>
-<![endif]-->
-<!-- Load the YUI Loader script: -->
-        <%= javascript_include_tag 'yui/3.3.0/build/yui/yui-min', 'yui/2.8.2r1/build/yuiloader/yuiloader-min' %>
-<script type="text/javascript">
-<% if request.host().index('localhost') == nil -%>
-        var baseUrl = "/ledger";
-<% else %>
-        <%# TODO-PER: This is fragile, but I couldn't find another way because the server inserts the extra folder. %>
-        var baseUrl = "";
-<% end %>
-</script>
-<%# = javascript_include_tag 'ac-widget/gallery-ac-plugin/gallery-ac-plugin', 'ac-widget/gallery-ac-widget/gallery-ac-widget', 'ac-widget/gallery-ds-regexcache/gallery-ds-regexcache' %>
-<%= javascript_include_tag 'lightbox', 'search', 'browse', 'preload_css_images', 'textarea_grow', 'confirmation_dlg', 'admin', 'auto_complete', 'form_helpers', 'no_spam', 'more', 'carousel' %>
-  <%= csrf_meta_tag %>
-        <script type="text/javascript">
+    <% @page_title = 'Administration' if @page_title == nil || @page_title.length == 0 %>
+    <title>Litchfield Ledger - <%= @page_title %></title>
+    <%= favicon_link_tag 'favicon.ico' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%#= stylesheet_link_tag 'yui/3.3.0/build/cssreset/reset-min',
+            'yui/gallery-2010.10.13-20-59/build/gallery-carousel/assets/skins/sam/gallery-carousel',
+            'yui/3.3.0/build/widget/assets/skins/sam/widget'
+    %>
+    <%#= stylesheet_link_tag 'main', 'lvl2', 'litchfield', 'lightbox', 'textarea_grow', 'auto_complete' %>
+    <!--[if IE 7]>
+    <%#= stylesheet_link_tag "ie7hacks.css" %>
+    <![endif]-->
+    <!--[if IE 6]>
+    <%#= stylesheet_link_tag "ie6hacks.css" %>
+    <![endif]-->
+    <!-- Load the YUI Loader script: -->
+    <%#= javascript_include_tag 'yui/3.3.0/build/yui/yui-min', 'yui/2.8.2r1/build/yuiloader/yuiloader-min' %>
+    <script type="text/javascript">
+        <% if request.host().index('localhost') == nil -%>
+                var baseUrl = "/ledger";
+        <% else %>
+                <%# TODO-PER: This is fragile, but I couldn't find another way because the server inserts the extra folder. %>
+                var baseUrl = "";
+        <% end %>
+    </script>
+    <%# = javascript_include_tag 'ac-widget/gallery-ac-plugin/gallery-ac-plugin', 'ac-widget/gallery-ac-widget/gallery-ac-widget', 'ac-widget/gallery-ds-regexcache/gallery-ds-regexcache' %>
+    <%#= javascript_include_tag 'lightbox', 'search', 'browse', 'preload_css_images', 'textarea_grow', 'confirmation_dlg', 'admin', 'auto_complete', 'form_helpers', 'no_spam', 'more', 'carousel' %>
+    <%= csrf_meta_tag %>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-27535993-1']);
+        _gaq.push(['_trackPageview']);
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-27535993-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-                var ga = document.createElement('script'); ga.type =
-        'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
-        'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </head>
-<body class="yui3-skin-sam  yui-skin-sam">
-	<div id="main_container">
-	<!--div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="/index.php" id="exit_link"></a></div-->
-	<div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="https://litchfieldhistoricalsociety.org" id="exit_link"></a></div>
-    <div id="content_container">
-<% @curr_tab ||= nil %>
-<%= render :partial => '/common/nav', :locals => { :show_home => @page_title != 'Home', :curr_tab => @curr_tab, :id_suffix => "top#{"_main" if @page_title == 'Home'}" } %>
-<%= render :partial => '/common/admin_bar', :locals => { } %>
-<p class="notice"><%= notice %></p>
-<% if alert && alert.length > 0 %>
-<p class="alert"><%= alert %></p>
-<% end %>
-<%= yield %>
-<% if user_signed_in? %>
-<div class="admin_banner_bottom">&nbsp;</div>
-<% end %>
-<%= render :partial => '/common/nav', :locals => { :show_home => @page_title != 'Home', :curr_tab => @curr_tab, :id_suffix => "bottom#{"_main" if @page_title == 'Home'}" } %>
-<% if @page_title == 'Home' %>
-<div class="sponsors"><div class="sponsor_title">Generous funding for the ledger is provided by:</div><%= image_tag('sponsors.jpg') %></div>
-<% end %>
-        <div class="clear_both"></div>
+<body class="yui3-skin-sam yui-skin-sam">
+    <%= image_tag "admin_button_object.jpg" %>
+    <div id="main_container">
+        <!--div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="/index.php" id="exit_link"></a></div-->
+        <div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="https://litchfieldhistoricalsociety.org" id="exit_link"></a></div>
+        <div id="content_container">
+            <% @curr_tab ||= nil %>
+            <%= render :partial => '/common/nav', :locals => { :show_home => @page_title != 'Home', :curr_tab => @curr_tab, :id_suffix => "top#{"_main" if @page_title == 'Home'}" } %>
+            <%= render :partial => '/common/admin_bar', :locals => { } %>
+            <p class="notice"><%= notice %></p>
+            <% if alert && alert.length > 0 %>
+            <p class="alert"><%= alert %></p>
+            <% end %>
+            <%= yield %>
+            <% if user_signed_in? %>
+            <div class="admin_banner_bottom">&nbsp;</div>
+            <% end %>
+            <%= render :partial => '/common/nav', :locals => { :show_home => @page_title != 'Home', :curr_tab => @curr_tab, :id_suffix => "bottom#{"_main" if @page_title == 'Home'}" } %>
+            <% if @page_title == 'Home' %>
+            <div class="sponsors"><div class="sponsor_title">Generous funding for the ledger is provided by:</div><%= image_tag('sponsors.jpg') %></div>
+            <% end %>
+            <div class="clear_both"></div>
+        </div>
+        <div id="index_footer"></div>
+        <div id="index_footer_sponsor"></div>
+        <div id="page_footer"></div>
     </div>
-	<div id="index_footer"></div>
-    <div id="index_footer_sponsor"></div>
-
-	<div id="page_footer"></div>
-</div>
-<div id="paper_footer"><div>© Copyright 2010 by the Litchfield Historical Society. All rights reserved</div>
-	<div>For permissions contact: <a href="litchfieldhistoricalsociety org director" class="no_spam">$</a></div></div>
+    <div id="paper_footer"><div>© Copyright 2010 by the Litchfield Historical Society. All rights reserved</div>
+    <div>For permissions contact: <a href="litchfieldhistoricalsociety org director" class="no_spam">$</a></div></div>
 </body>
 </html>
- 
