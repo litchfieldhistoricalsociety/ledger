@@ -3,7 +3,7 @@
 
 
 #lvl2_header {
-	background:url(../images/ledger_header.jpg) top left no-repeat;
+	background:image-url("ledger_header.jpg") top left no-repeat;
 	width:853px;
 	height:540px;
 }
@@ -17,7 +17,7 @@
 #home_link 	{position:absolute;  height:60px;  width:470px;  top:20px;  left:84px;}
 
 #exit_link 	{position:absolute;  height:22px;  width:160px;  top:44px;  left:683px;}
-#exit_link:hover 	{background:url(../images/ledger_home_rollover.jpg) top left no-repeat;}
+#exit_link:hover 	{background:image-url("ledger_home_rollover.jpg") top left no-repeat;}
 
 #subnav_container {position:absolute;  height:25px;  top:94px;  right:83px; text-align:right;	color:#FAF9C3;}
 
@@ -88,32 +88,32 @@
 	float: right;
 }
 
-#ledger_search_up {background:url(../images/ledger_nav_search_up.gif) top left no-repeat; width:110px;}
-#ledger_search_dn {background:url(../images/ledger_nav_search_dn.gif) top left no-repeat; width:110px;}
-#ledger_search_up:hover {background:url(../images/ledger_nav_search_dn.gif) top left no-repeat; width:110px;}
+#ledger_search_up {background:image-url("ledger_nav_search_up.gif") top left no-repeat; width:110px;}
+#ledger_search_dn {background:image-url("ledger_nav_search_dn.gif") top left no-repeat; width:110px;}
+#ledger_search_up:hover {background:image-url("ledger_nav_search_dn.gif") top left no-repeat; width:110px;}
 
-#ledger_studies_up {background:url(../images/ledger_nav_studies_up.gif) top left no-repeat; width:96px;}
-#ledger_studies_dn {background:url(../images/ledger_nav_studies_dn.gif) top left no-repeat; width:96px;}
-#ledger_studies_up:hover {background:url(../images/ledger_nav_studies_dn.gif) top left no-repeat; width:96px;}
+#ledger_studies_up {background:image-url("ledger_nav_studies_up.gif") top left no-repeat; width:96px;}
+#ledger_studies_dn {background:image-url("ledger_nav_studies_dn.gif") top left no-repeat; width:96px;}
+#ledger_studies_up:hover {background:image-url("ledger_nav_studies_dn.gif") top left no-repeat; width:96px;}
 
-#ledger_about_up {background:url(../images/ledger_nav_about_up.gif) top left no-repeat; width:110px;}
-#ledger_about_dn {background:url(../images/ledger_nav_about_dn.gif) top left no-repeat; width:110px;}
-#ledger_about_up:hover {background:url(../images/ledger_nav_about_dn.gif) top left no-repeat; width:110px;}
+#ledger_about_up {background:image-url("ledger_nav_about_up.gif") top left no-repeat; width:110px;}
+#ledger_about_dn {background:image-url("ledger_nav_about_dn.gif") top left no-repeat; width:110px;}
+#ledger_about_up:hover {background:image-url("images/ledger_nav_about_dn.gif") top left no-repeat; width:110px;}
 
-#ledger_home_up {background:url(../images/ledger_nav_home_up.gif) top left no-repeat; width:81px;}
-#ledger_home_dn {background:url(../images/ledger_nav_home_dn.gif) top left no-repeat; width:81px;}
-#ledger_home_up:hover {background:url(../images/ledger_nav_home_dn.gif) top left no-repeat; width:81px;}
+#ledger_home_up {background:image-url("ledger_nav_home_up.gif") top left no-repeat; width:81px;}
+#ledger_home_dn {background:image-url("ledger_nav_home_dn.gif") top left no-repeat; width:81px;}
+#ledger_home_up:hover {background:image-url("ledger_nav_home_dn.gif") top left no-repeat; width:81px;}
 
-#ledger_browse_up {background:url(../images/ledger_nav_browse_up.gif) top left no-repeat; width:111px;}
-#ledger_browse_dn {background:url(../images/ledger_nav_browse_dn.gif) top left no-repeat; width:111px;}
-#ledger_browse_up:hover {background:url(../images/ledger_nav_browse_dn.gif) top left no-repeat; width:111px;}
+#ledger_browse_up {background:image-url("ledger_nav_browse_up.gif") top left no-repeat; width:111px;}
+#ledger_browse_dn {background:uimage-url("ledger_nav_browse_dn.gif") top left no-repeat; width:111px;}
+#ledger_browse_up:hover {background:image-url("ledger_nav_browse_dn.gif") top left no-repeat; width:111px;}
 
-#search_btn {background:url(../images/ledger_button_search.gif) top left no-repeat; width:67px; height:22px; border: none; }
-#clear_btn {background:url(../images/ledger_button_clear.gif) top left no-repeat; width:67px; height:22px; border: none; }
+#search_btn {background:image-url("ledger_button_search.gif") top left no-repeat; width:67px; height:22px; border: none; }
+#clear_btn {background:image-url("ledger_button_clear.gif") top left no-repeat; width:67px; height:22px; border: none; }
 
-#edit_btn {background:url(../images/ledger_button_edit.gif) top left no-repeat; width:67px; height:22px; border: none; }
+#edit_btn {background:image-url("ledger_button_edit.gif") top left no-repeat; width:67px; height:22px; border: none; }
 
-/* .plus_btn {background:url(../images/ledger_button_plus.gif) top left no-repeat; width:26px; height:22px; border: none; }*/
+/* .plus_btn {background:image-url("ledger_button_plus.gif") top left no-repeat; width:26px; height:22px; border: none; }*/
 .plus_btn {
 	color:#551A8B;
 }
@@ -121,16 +121,16 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
-.minus_btn {background:url(../images/ledger_button_minus.gif) top left no-repeat; width:26px; height:22px; border: none; }
-.browse_for_image_btn {background:url(../images/ledger_button_browse_image.gif) top left no-repeat; width:114px; height:22px; border: none; }
-.browse_for_transcription_btn {background:url(../images/ledger_button_browse_file.gif) top left no-repeat; width:114px; height:22px; border: none; }
-#save_btn {background:url(../images/ledger_button_save.gif) top left no-repeat; width:67px; height:22px; border: none; margin-top: 0px; }
-.cancel_btn {background:url(../images/ledger_button_cancel.gif) top left no-repeat; width:67px; height:22px; border: none; }
-.delete_btn {background:url(../images/ledger_button_delete.gif) top left no-repeat; width:114px; height:22px; border: none; }
-.add_image_btn {background:url(../images/ledger_button_add_image.gif) top left no-repeat; width:114px; height:22px; border: none; float:right; clear: both; }
-.add_transcription_btn {background:url(../images/ledger_button_add_transcription.gif) top left no-repeat; width:114px; height:22px; border: none; float:right; }
+.minus_btn {background:image-url("ledger_button_minus.gif") top left no-repeat; width:26px; height:22px; border: none; }
+.browse_for_image_btn {background:image-url("ledger_button_browse_image.gif") top left no-repeat; width:114px; height:22px; border: none; }
+.browse_for_transcription_btn {background:image-url("ledger_button_browse_file.gif") top left no-repeat; width:114px; height:22px; border: none; }
+#save_btn {background:image-url("ledger_button_save.gif") top left no-repeat; width:67px; height:22px; border: none; margin-top: 0px; }
+.cancel_btn {background:image-url("ledger_button_cancel.gif") top left no-repeat; width:67px; height:22px; border: none; }
+.delete_btn {background:image-url("ledger_button_delete.gif") top left no-repeat; width:114px; height:22px; border: none; }
+.add_image_btn {background:image-url("ledger_button_add_image.gif") top left no-repeat; width:114px; height:22px; border: none; float:right; clear: both; }
+.add_transcription_btn {background:image-url("ledger_button_add_transcription.gif") top left no-repeat; width:114px; height:22px; border: none; float:right; }
 .remove_file_btn {
-	background:url(../images/ledger_button_delete_file.gif) top left no-repeat;
+	background:image-url("ledger_button_delete_file.gif") top left no-repeat;
 	width:114px;
 	height:22px;
 	border: none;
@@ -141,7 +141,7 @@
 	float:right;
 }
 .remove_file_btn_carousel {
-	background:url(../images/ledger_button_delete_file.gif) top left no-repeat;
+	background:image-url("ledger_button_delete_file.gif") top left no-repeat;
 	width:66px;
 	height:22px;
 	border: none;
@@ -150,7 +150,7 @@
 	display: block;
 }
 
-#student_submit {background:url(../images/ledger_button_save.gif) top left no-repeat; width:67px; height:22px; border: none; margin-top: 0px; }
+#student_submit {background:image-url("ledger_button_save.gif") top left no-repeat; width:67px; height:22px; border: none; margin-top: 0px; }
 
 .plus_button {
 	clear: left;
@@ -304,13 +304,13 @@ h2.page_subheader {
 }
 
 ul {
-	list-style:url(../images/ledger_button_arrow.gif) ;
+	list-style:image-url("ledger_button_arrow.gif") ;
 	margin:0px 0px 20px 18px;
 	padding:0px 0px 0px 18px;
 }
 
 ul.nonlink {
-	list-style:url(../images/red_block_small.jpg) ;
+	list-style:image-url("red_block_small.jpg") ;
 	margin:10px 0px 15px 12px;
 	padding:0px 0px 0px 12px;
 }
@@ -326,7 +326,7 @@ ul.bullet li {
 }
 
 ul.member {
-	list-style:url(../images/red_block_small.jpg) ;
+	list-style:image-url("red_block_small.jpg") ;
 	margin:-10px 0px 20px 12px;
 	padding:0px 0px 0px 12px;
 
@@ -674,23 +674,23 @@ select {
 }*/
 
 #carousel_left.yui-carousel-first-button-disabled {
-    background: url("../images/carousel_left_off.png") no-repeat scroll 0 0 transparent;
+    background: image-url("carousel_left_off.png") no-repeat scroll 0 0 transparent;
 }
 
 #carousel_left {
     height: 45px;
     width: 45px;
-    background: url("../images/carousel_left.png") no-repeat scroll 0 0 transparent;
+    background: image-url("carousel_left.png") no-repeat scroll 0 0 transparent;
 }
 
 #carousel_right.yui-carousel-button-disabled {
-    background: url("../images/carousel_right_off.png") no-repeat scroll 0 0 transparent;
+    background: image-url("carousel_right_off.png") no-repeat scroll 0 0 transparent;
 }
 
 #carousel_right {
     height: 42px;
     width: 42px;
-    background: url("../images/carousel_right.png") no-repeat scroll 0 0 transparent;
+    background: image-url("carousel_right.png") no-repeat scroll 0 0 transparent;
 }
 
 .yui-carousel li.yui-carousel-item-selected {
@@ -876,7 +876,7 @@ ol.yui-carousel-element li {
 .admin_column {
 	width: 355px;
 	float: left;
-	background:url(../images/admin_bottom.gif) bottom left no-repeat;
+	background:image-url("admin_bottom.gif") bottom left no-repeat;
 	margin-right:20px;
 	padding-bottom:9px;
 	padding-top:8px;
@@ -1007,7 +1007,7 @@ ul.revised li {
 }
 
 .button_loading {
-	background-image: url(../images/small_spinner.gif);
+	background-image: image-url("small_spinner.gif");
 	background-repeat: no-repeat;
 	background-position: left;
 	padding-left: 40px;

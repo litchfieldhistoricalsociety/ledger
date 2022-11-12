@@ -5,7 +5,6 @@
     <title>Litchfield Ledger - <%= @page_title %></title>
     <%= favicon_link_tag 'favicon.ico' %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
     <%#= stylesheet_link_tag 'yui/3.3.0/build/cssreset/reset-min',
             'yui/gallery-2010.10.13-20-59/build/gallery-carousel/assets/skins/sam/gallery-carousel',
             'yui/3.3.0/build/widget/assets/skins/sam/widget'
@@ -27,6 +26,7 @@
                 var baseUrl = "";
         <% end %>
     </script>
+    <%= javascript_include_tag 'application' %>
     <%# = javascript_include_tag 'ac-widget/gallery-ac-plugin/gallery-ac-plugin', 'ac-widget/gallery-ac-widget/gallery-ac-widget', 'ac-widget/gallery-ds-regexcache/gallery-ds-regexcache' %>
     <%#= javascript_include_tag 'lightbox', 'search', 'browse', 'preload_css_images', 'textarea_grow', 'confirmation_dlg', 'admin', 'auto_complete', 'form_helpers', 'no_spam', 'more', 'carousel' %>
     <%= csrf_meta_tag %>
@@ -44,7 +44,6 @@
     </script>
 </head>
 <body class="yui3-skin-sam yui-skin-sam">
-    <%= image_tag "admin_button_object.jpg" %>
     <div id="main_container">
         <!--div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="/index.php" id="exit_link"></a></div-->
         <div id="lvl2_header"><%= my_link_to("", { :controller => '/home', :action => 'index'}, { :id => 'home_link' }) %><a href="https://litchfieldhistoricalsociety.org" id="exit_link"></a></div>

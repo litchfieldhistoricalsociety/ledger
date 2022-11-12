@@ -21,7 +21,10 @@
 # Ignore the site specific stuff.
 /config/database.yml
 /config/site.yml
+config/initializers/secret_token.rb
 
 /**/.svn/*
+public/assets/*
+public/assets-dev/*
 public/objects/*
 public/transcriptions/*

@@ -1,16 +1,16 @@
 <div class="sidebar main"><p>F E A T U R E S</p>
 <% for feature in @features %>
-<% gender = feature[:rec].gender=='F'?'Female':'Male' %>
-<% main_image = feature[:rec].image_id != nil ? Image.find(feature[:rec].image_id).photo.url(:thumb) : (gender == 'Male' ? 'images/generic_male.gif' : 'images/generic_female_gray.jpg') %>
-<div class="feature_item"><%= link_to(uploaded_image_tag(main_image, :style => 'max-width:150px' ), :controller => 'students', :action => 'show', :id => feature[:rec].id) %><br />
-<%= feature[:text] %>
-	<%= link_to('MORE', :controller => 'students', :action => 'show', :id => feature[:rec].id) %></div>
+    <% gender = feature[:rec]['gender'] == 'F' ? 'Female' : 'Male' %>
+    <% main_image = feature[:rec]['image_id'] != nil ? Image.find(feature[:rec]['image_id']).photo.url(:thumb) : (gender == 'Male' ? 'images/generic_male.gif' : 'images/generic_female_gray.jpg') %>
+    <div class="feature_item"><%= link_to(uploaded_image_tag(main_image, :style => 'max-width:150px' ), :controller => 'students', :action => 'show', :id => feature[:rec]['id']) %><br />
+    <%= feature[:rec][:text] %>
+    <%= link_to('MORE', :controller => 'students', :action => 'show', :id => feature[:rec]['id']) %></div>
 <% end %>
 </div>
 <h1 class="page_header">History at Your Fingertips</h1>
 <p class="explanatory_text">In 1784 Tapping Reeve opened the Litchfield Law School, the first in America. The Law School attracted
-	over 1,200 students from 13 states and territories to study in Litchfield. Graduates formed a network of leadership and influence that
-	encompassed public service, business, and other areas of American life.
+    over 1,200 students from 13 states and territories to study in Litchfield. Graduates formed a network of leadership and influence that
+    encompassed public service, business, and other areas of American life.
 </p>
 <p class="explanatory_text">
 In 1792 Sarah Pierce founded a pioneer institution of female education in America. Her innovative curriculum of academic, practical,
@@ -35,11 +35,11 @@ The ledger contains information about <%= @total_lls %> LLS students and <%= @to
 
 <h2 class="page_subheader">Browsing the Ledger</h2>
 <ul>
-	<li><%= my_link_to "Browse Law School Students by Name", { :controller => 'browse', :action => 'index', :type => 'LLS', :subtype => 'name' } %></li>
-	<li><%= my_link_to "Browse Female Academy Students by Name", { :controller => 'browse', :action => 'index', :type => 'LFA', :subtype => 'name' } %></li>
-	<li><%= my_link_to "Browse Law School Students by Profession", { :controller => 'browse', :action => 'index', :type => 'LLS', :subtype => 'profession' } %></li>
-	<li><%= my_link_to "Browse Materials by Category", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'category' } %></li>
-	<li><%= my_link_to "Browse Materials by Creation Date", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'dates' } %></li>
-	<li><%= my_link_to "OTHER BROWSE OPTIONS", { :controller => 'browse', :action => 'index' } %></li>
+    <li><%= my_link_to "Browse Law School Students by Name", { :controller => 'browse', :action => 'index', :type => 'LLS', :subtype => 'name' } %></li>
+    <li><%= my_link_to "Browse Female Academy Students by Name", { :controller => 'browse', :action => 'index', :type => 'LFA', :subtype => 'name' } %></li>
+    <li><%= my_link_to "Browse Law School Students by Profession", { :controller => 'browse', :action => 'index', :type => 'LLS', :subtype => 'profession' } %></li>
+    <li><%= my_link_to "Browse Materials by Category", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'category' } %></li>
+    <li><%= my_link_to "Browse Materials by Creation Date", { :controller => 'browse', :action => 'index', :type => 'materials', :subtype => 'dates' } %></li>
+    <li><%= my_link_to "OTHER BROWSE OPTIONS", { :controller => 'browse', :action => 'index' } %></li>
 </ul>
 <hr class="last_hr"/>

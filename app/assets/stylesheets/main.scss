@@ -9,7 +9,7 @@ body {
 	font-family:"Times New Roman", Times, serif;
 	font-size:14px;
 	line-height:1.4em;
-	background:url(../images/background.jpg) top center repeat-y #000000;
+	background:image-url("background.jpg") top center repeat-y #000000;
 	position:absolute;
 	width:926px;
 	left:50%;
@@ -42,7 +42,7 @@ a:hover {
 }
 
 #main_container {
-	background:url(../images/ledger_page_repeat.jpg) top left repeat-y;
+	background:image-url("ledger_page_repeat.jpg") top left repeat-y;
 	width:853px;
 	margin:0px 30px 0px 43px;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 
 #page_footer {
-	background:url(../images/page_footer.jpg) top left no-repeat;
+	background:image-url("page_footer.jpg") top left no-repeat;
 	width:853px;
 	height:30px;
 	text-align:center;
@@ -70,7 +70,7 @@ a:hover {
 }
 
 #paper_footer {
-	background:url(../images/paper_footer.gif) top left no-repeat;
+	background:image-url("paper_footer.gif") top left no-repeat;
 	width:853px;
 	height:52px;
 	margin:0px 30px 50px 43px;
@@ -102,7 +102,7 @@ div#preload { display: none; }
 	padding-top:10px;
 	text-align:center;
 	margin-bottom: 8px;
-	background: #e9dfc7 no-repeat bottom url(../images/sidebar_fade.jpg);
+	background: #e9dfc7 no-repeat bottom image-url("sidebar_fade.jpg");
 }
 
 .sidebar.about {

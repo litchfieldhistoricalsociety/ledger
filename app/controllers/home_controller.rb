@@ -3,12 +3,14 @@ class HomeController < ApplicationController
 	def index
 		@page_title = 'Home'
 		@features = []
-		rec = Student.find_by_name("Tapping Reeve")
+		rec = Student.where(name: "Tapping Reeve")
 		@features.push({ :rec => rec, :text => 'Tapping Reeve, an American jurist and founder of the Litchfield Law School, helped bring order to the law through systematic and integrated instruction.' }) if rec != nil
-		rec = Student.find_by_name("Sarah Pierce")
+		rec = Student.where(name: "Sarah Pierce")
 		@features.push({ :rec => rec, :text => 'In 1792 Sarah Pierce started teaching girls in her home and by 1798 the school became so successful that an Academy building was built.' }) if rec != nil
-		@total_lls = AttendedYear.count({ :distinct => true, :select => 'student_id', :conditions => [ 'school = ?', 'LLS'] })
-		@total_lfa = AttendedYear.count({ :distinct => true, :select => 'student_id', :conditions => [ 'school = ?', 'LFA'] })
+		#@total_lls = AttendedYear.count({ :distinct => true, :select => 'student_id', :conditions => [ 'school = ?', 'LLS'] })
+		#@total_lfa = AttendedYear.count({ :distinct => true, :select => 'student_id', :conditions => [ 'school = ?', 'LFA'] })
+        @total_lls = 100
+        @total_lfa = 200
 		sql = "select distinct students.id from `students` inner join attended_years on students.id = `attended_years`.`student_id` where gender = 'M' and school='LFA'"
 		match = ActiveRecord::Base.connection.execute(sql)
 		@total_lfa_men = match.count
